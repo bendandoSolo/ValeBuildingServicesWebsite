@@ -67,6 +67,38 @@ class BannerV2 extends Component {
 													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
 												</div>
 												<div className="btn-wrapper animated">
+													<Link href="/service"><a className="theme-btn-1 btn btn-effect-1">OUR SERVICES</a></Link>
+													<Link href="/about"><a className="btn btn-transparent btn-effect-3">LEARN MORE</a></Link>
+												</div>
+											</div>
+										</div>
+										<div className="slide-item-img">
+											<img src="/valeImages/homeCarousel/rustic_kitchen.jpg" alt="modern kitchen 2" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					{/* slide-item */}
+					<div className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 ltn__slide-item-11">
+						<div className="ltn__slide-item-inner">
+							<div className="container">
+								<div className="row">
+									<div className="col-lg-12 align-self-center">
+										<div className="slide-item-info">
+											<div className="slide-item-info-inner ltn__slide-animation">
+												<div className="slide-video mb-50 d-none">
+													<a className="ltn__video-icon-2 ltn__video-icon-2-border" href="https://www.youtube.com/embed/tlThdr3O5Qo" data-rel="lightcase:myCollection">
+														<i className="fa fa-play" />
+													</a>
+												</div>
+												<h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Real Estate Agency</h6>
+												<h1 className="slide-title animated ">Find Your Dream <br /> House By Us</h1>
+												<div className="slide-brief animated">
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+												</div>
+												<div className="btn-wrapper animated">
 													<Link href="/service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
 													<Link href="/about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
 												</div>
@@ -105,39 +137,7 @@ class BannerV2 extends Component {
 											</div>
 										</div>
 										<div className="slide-item-img">
-											<img src="/valeImages/homeCarousel/rustic_kitchen.jpg" alt="rustic kitchen" />
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					{/* slide-item */}
-					<div className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 ltn__slide-item-11">
-						<div className="ltn__slide-item-inner">
-							<div className="container">
-								<div className="row">
-									<div className="col-lg-12 align-self-center">
-										<div className="slide-item-info">
-											<div className="slide-item-info-inner ltn__slide-animation">
-												<div className="slide-video mb-50 d-none">
-													<a className="ltn__video-icon-2 ltn__video-icon-2-border" href="https://www.youtube.com/embed/tlThdr3O5Qo" data-rel="lightcase:myCollection">
-														<i className="fa fa-play" />
-													</a>
-												</div>
-												<h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Real Estate Agency</h6>
-												<h1 className="slide-title animated ">Find Your Dream <br /> House By Us</h1>
-												<div className="slide-brief animated">
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
-												</div>
-												<div className="btn-wrapper animated">
-													<Link href="/service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
-													<Link href="/about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
-												</div>
-											</div>
-										</div>
-										<div className="slide-item-img">
-											<img src="/valeImages/homeCarousel/modern_kitchen_2.jpg" alt="modern kitchen 2" />
+											<img src="/valeImages/homeCarousel/refurbishment.jpg" alt="rustic kitchen" />
 										</div>
 									</div>
 								</div>
@@ -163,16 +163,16 @@ class BannerV2 extends Component {
 					<div className="ltn__slider-11-img-slide-arrow-inner">
 						<div className="ltn__slider-11-img-slide-arrow-active">
 							<div className="image-slide-item">
-								<img src="/valeImages/homeCarousel/modern_kitchen.jpg" alt="Modern Kitchen Thumbnail" />
-							</div>
-							<div className="image-slide-item">
-								<img src="/valeImages/homeCarousel/bathroom.jpg" alt="Bathroom Thumbnail" />
+								<img src="/valeImages/homeCarousel/modern_kitchen_2.jpg" alt="Modern Kitchen Thumbnail" />
 							</div>
 							<div className="image-slide-item">
 								<img src="/valeImages/homeCarousel/rustic_kitchen.jpg" alt="Rustic Kitchen Thumbnail" />
 							</div>
 							<div className="image-slide-item">
-								<img src="/valeImages/homeCarousel/modern_kitchen_2.jpg" alt="Modern Kitchen 2 Thumbnail" />
+								<img src="/valeImages/homeCarousel/bathroom.jpg" alt="Bathroom Thumbnail" />
+							</div>
+							<div className="image-slide-item">
+								<img src="/valeImages/homeCarousel/refurbishment_thumbnail.jpg" alt="Refurbishment Thumbnail" />
 							</div>
 						</div>
 						{/* slider-4-slide-item-count */}
