@@ -2,6 +2,7 @@ import '../public/assets/css/font-icons.css'
 import '../public/assets/css/plugins.css';
 import '../public/assets/css/style.css';
 import '../public/assets/css/responsive.css';
+import '../public/assets/sass/style.scss';
 
 import Script from 'next/script';
 
@@ -18,7 +19,7 @@ function MyApp({ Component, pageProps }) {
 				src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"
 				integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY="
 				crossorigin="anonymous" />
-			<Script rsc="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" crossorigin="anonymous" />\
+			<Script rsc="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js" crossorigin="anonymous" />
 			<Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" />
 			<Script
 				src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
@@ -32,7 +33,6 @@ function MyApp({ Component, pageProps }) {
 			{/* <Script src="https://cdnjs.cloudflare.com/ajax/libs/tooltip.js/1.3.1/tooltip.min.js" integrity="sha512-ZAFwin0nQNXMJRo329TcU4ZyC+ZgKbnaopq/LH/6j7n9zT7ZVLK5BiSmnqgx7jNiewVLgc04geoE62cNN1D8VQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> */}
 			<Script src='/assets/js/plugins.js' />
 			<Script src='/assets/js/main.js' />
-			<Script>if (window.module) module = window.module;</Script>
 			<Component {...pageProps} />
 		</>)
 }
