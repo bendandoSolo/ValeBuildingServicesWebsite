@@ -41,7 +41,7 @@ class BannerV2 extends Component {
 											</div>
 										</div>
 										<div className="slide-item-img">
-											<img src={publicUrl + "assets/img/slider/61.jpg"} alt="#" />
+											<img src="/valeImages/homeCarousel/modern_kitchen.jpg" alt="modern kitchen" />
 										</div>
 									</div>
 								</div>
@@ -73,7 +73,7 @@ class BannerV2 extends Component {
 											</div>
 										</div>
 										<div className="slide-item-img">
-											<img src={publicUrl + "assets/img/slider/62.jpg"} alt="#" />
+											<img src="/valeImages/homeCarousel/bathroom.jpg" alt="bathroom" />
 										</div>
 									</div>
 								</div>
@@ -105,7 +105,7 @@ class BannerV2 extends Component {
 											</div>
 										</div>
 										<div className="slide-item-img">
-											<img src={publicUrl + "assets/img/slider/63.jpg"} alt="#" />
+											<img src="/valeImages/homeCarousel/rustic_kitchen.jpg" alt="rustic kitchen" />
 										</div>
 									</div>
 								</div>
@@ -137,7 +137,7 @@ class BannerV2 extends Component {
 											</div>
 										</div>
 										<div className="slide-item-img">
-											<img src={publicUrl + "assets/img/slider/64.jpg"} alt="#" />
+											<img src="/valeImages/homeCarousel/modern_kitchen_2.jpg" alt="modern kitchen 2" />
 										</div>
 									</div>
 								</div>
@@ -151,28 +151,28 @@ class BannerV2 extends Component {
 					<span className="total" />
 				</div>
 				{/* slider-sticky-icon */}
-				<div className="slider-sticky-icon-2">
+				{/* <div className="slider-sticky-icon-2">
 					<ul>
 						<li><a href="#" title="Facebook"><i className="fab fa-facebook-f" /></a></li>
 						<li><a href="#" title="Twitter"><i className="fab fa-twitter" /></a></li>
 						<li><a href="#" title="Linkedin"><i className="fab fa-linkedin" /></a></li>
 					</ul>
-				</div>
+				</div> */}
 				{/* slider-4-img-slide-arrow */}
 				<div className="ltn__slider-11-img-slide-arrow">
 					<div className="ltn__slider-11-img-slide-arrow-inner">
 						<div className="ltn__slider-11-img-slide-arrow-active">
 							<div className="image-slide-item">
-								<img src={publicUrl + "assets/img/slider/61.jpg"} alt="Flower Image" />
+								<img src="/valeImages/homeCarousel/modern_kitchen.jpg" alt="Modern Kitchen Thumbnail" />
 							</div>
 							<div className="image-slide-item">
-								<img src={publicUrl + "assets/img/slider/62.jpg"} alt="Flower Image" />
+								<img src="/valeImages/homeCarousel/bathroom.jpg" alt="Bathroom Thumbnail" />
 							</div>
 							<div className="image-slide-item">
-								<img src={publicUrl + "assets/img/slider/63.jpg"} alt="Flower Image" />
+								<img src="/valeImages/homeCarousel/rustic_kitchen.jpg" alt="Rustic Kitchen Thumbnail" />
 							</div>
 							<div className="image-slide-item">
-								<img src={publicUrl + "assets/img/slider/64.jpg"} alt="Flower Image" />
+								<img src="/valeImages/homeCarousel/modern_kitchen_2.jpg" alt="Modern Kitchen 2 Thumbnail" />
 							</div>
 						</div>
 						{/* slider-4-slide-item-count */}
