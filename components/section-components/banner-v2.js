@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+//import { Link } from 'react-router-dom';
+//import parse from 'html-react-parser';
+import Link from 'next/link';
+
 
 class BannerV2 extends Component {
 
@@ -31,7 +33,7 @@ class BannerV2 extends Component {
 			                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
 			                    </div>
 			                    <div className="btn-wrapper animated">
-			                      <Link to="/about" className="theme-btn-1 btn btn-effect-1">Make An Enquiry</Link>
+			                      <Link href="/about" className="theme-btn-1 btn btn-effect-1">Make An Enquiry</Link>
 			                      <a className="ltn__video-play-btn bg-white" href="https://www.youtube.com/embed/HnbMYzdjuBs?autoplay=1&showinfo=0" data-rel="lightcase">
 			                        <i className="icon-play  ltn__secondary-color" />
 			                      </a>
@@ -65,8 +67,8 @@ class BannerV2 extends Component {
 			                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
 			                    </div>
 			                    <div className="btn-wrapper animated">
-			                      <Link to="/service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
-			                      <Link to="/about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
+			                      <Link href="/service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
+			                      <Link href="/about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
 			                    </div>
 			                  </div>
 			                </div>
@@ -97,8 +99,8 @@ class BannerV2 extends Component {
 			                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
 			                    </div>
 			                    <div className="btn-wrapper animated">
-			                      <Link to="/service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
-			                      <Link to="/about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
+			                      <Link href="/service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
+			                      <Link href="/about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
 			                    </div>
 			                  </div>
 			                </div>
@@ -129,8 +131,8 @@ class BannerV2 extends Component {
 			                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
 			                    </div>
 			                    <div className="btn-wrapper animated">
-			                      <Link to="/service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
-			                      <Link to="/about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
+			                      <Link href="/service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
+			                      <Link href="/about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
 			                    </div>
 			                  </div>
 			                </div>
