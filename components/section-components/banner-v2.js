@@ -8,9 +8,6 @@ class BannerV2 extends Component {
 
 	render() {
 
-		let publicUrl = process.env.PUBLIC_URL + '/'
-		let imagealt = 'image'
-
 		return <div className="ltn__slider-area ltn__slider-11  ltn__slider-11-slide-item-count-show--- ltn__slider-11-pagination-count-show--- section-bg-1">
 			<div className="ltn__slider-11-inner">
 				<div className="ltn__slider-11-active">
@@ -22,21 +19,14 @@ class BannerV2 extends Component {
 									<div className="col-lg-12 align-self-center">
 										<div className="slide-item-info">
 											<div className="slide-item-info-inner ltn__slide-animation">
-												<div className="slide-video mb-50 d-none">
-													<a className="ltn__video-icon-2 ltn__video-icon-2-border" href="https://www.youtube.com/embed/tlThdr3O5Qo" data-rel="lightcase:myCollection">
-														<i className="fa fa-play" />
-													</a>
-												</div>
-												<h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Real Estate Agency</h6>
-												<h1 className="slide-title animated ">Search and Find <br /><span>Luxury</span> House</h1>
+												<h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Vale Building Services</h6>
+												<h1 className="slide-title animated ">Property Maintenance <br /><span>&&nbsp;Refurbishment</span></h1>
 												<div className="slide-brief animated">
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+													<p>Based in Kingston; Covering London, Surrey and the surrounding areas.</p>
 												</div>
 												<div className="btn-wrapper animated">
-													<Link href="/about"><a className="theme-btn-1 btn btn-effect-1">Make An Enquiry</a></Link>
-													{/* <a className="ltn__video-play-btn bg-white" href="https://www.youtube.com/embed/HnbMYzdjuBs?autoplay=1&showinfo=0" data-rel="lightcase">
-			                        <i className="icon-play  ltn__secondary-color" />
-			                      </a> */}
+													<Link href="#services"><a className="theme-btn-1 btn btn-effect-1">OUR SERVICES</a></Link>
+													<Link href="#about"><a className="btn btn-transparent btn-effect-3">LEARN MORE</a></Link>
 												</div>
 											</div>
 										</div>
@@ -56,19 +46,13 @@ class BannerV2 extends Component {
 									<div className="col-lg-12 align-self-center">
 										<div className="slide-item-info">
 											<div className="slide-item-info-inner ltn__slide-animation">
-												<div className="slide-video mb-50 d-none">
-													<a className="ltn__video-icon-2 ltn__video-icon-2-border" href="https://www.youtube.com/embed/tlThdr3O5Qo" data-rel="lightcase:myCollection">
-														<i className="fa fa-play" />
-													</a>
-												</div>
-												<h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Real Estate Agency</h6>
-												<h1 className="slide-title animated ">Find Your Dream <br /> House By Us</h1>
+												<h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Vale Building Services</h6>
+												<h1 className="slide-title animated ">Professional, <br /><span>Reliable,</span><br />Affordable</h1>
 												<div className="slide-brief animated">
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+													<p>A family run business operating for over 30 years.</p>
 												</div>
 												<div className="btn-wrapper animated">
-													<Link href="/service"><a className="theme-btn-1 btn btn-effect-1">OUR SERVICES</a></Link>
-													<Link href="/about"><a className="btn btn-transparent btn-effect-3">LEARN MORE</a></Link>
+													<Link href="/contact"><a className="theme-btn-1 btn btn-effect-1">Make An Enquiry</a></Link>
 												</div>
 											</div>
 										</div>
@@ -88,19 +72,14 @@ class BannerV2 extends Component {
 									<div className="col-lg-12 align-self-center">
 										<div className="slide-item-info">
 											<div className="slide-item-info-inner ltn__slide-animation">
-												<div className="slide-video mb-50 d-none">
-													<a className="ltn__video-icon-2 ltn__video-icon-2-border" href="https://www.youtube.com/embed/tlThdr3O5Qo" data-rel="lightcase:myCollection">
-														<i className="fa fa-play" />
-													</a>
-												</div>
-												<h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Real Estate Agency</h6>
-												<h1 className="slide-title animated ">Find Your Dream <br /> House By Us</h1>
+												<h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Vale Building Services</h6>
+												<h1 className="slide-title animated ">Property Maintenance <br /><span>&&nbsp;Refurbishment</span></h1>
 												<div className="slide-brief animated">
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+													<p>Based in Kingston; Covering London, Surrey and the surrounding areas.</p>
 												</div>
 												<div className="btn-wrapper animated">
-													<Link href="/service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
-													<Link href="/about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
+													<Link href="#services"><a className="theme-btn-1 btn btn-effect-1">OUR SERVICES</a></Link>
+													<Link href="#about"><a className="btn btn-transparent btn-effect-3">LEARN MORE</a></Link>
 												</div>
 											</div>
 										</div>
@@ -120,19 +99,13 @@ class BannerV2 extends Component {
 									<div className="col-lg-12 align-self-center">
 										<div className="slide-item-info">
 											<div className="slide-item-info-inner ltn__slide-animation">
-												<div className="slide-video mb-50 d-none">
-													<a className="ltn__video-icon-2 ltn__video-icon-2-border" href="https://www.youtube.com/embed/tlThdr3O5Qo" data-rel="lightcase:myCollection">
-														<i className="fa fa-play" />
-													</a>
-												</div>
-												<h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Real Estate Agency</h6>
-												<h1 className="slide-title animated ">Find Your Dream <br /> House By Us</h1>
+												<h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Vale Building Services</h6>
+												<h1 className="slide-title animated ">Professional, <br /><span>Reliable,</span><br />Affordable</h1>
 												<div className="slide-brief animated">
-													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+													<p>A family run business operating for over 30 years.</p>
 												</div>
 												<div className="btn-wrapper animated">
-													<Link href="/service" className="theme-btn-1 btn btn-effect-1">OUR SERVICES</Link>
-													<Link href="/about" className="btn btn-transparent btn-effect-3">LEARN MORE</Link>
+													<Link href="/contact"><a className="theme-btn-1 btn btn-effect-1">Make An Enquiry</a></Link>
 												</div>
 											</div>
 										</div>

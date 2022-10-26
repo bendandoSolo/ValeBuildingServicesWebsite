@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import parse from 'html-react-parser';
+import Link from 'next/link';
 
 class AboutV3 extends Component {
 
