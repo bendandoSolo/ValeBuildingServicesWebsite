@@ -137,7 +137,7 @@ class NavbarV2 extends Component {
 						</div>
 						<div className="ltn__utilize-menu">
 							<ul>
-								<li><a href="#">Home</a></li>
+								<li><a href="/">Home</a></li>
 								<li><Link href="/">Services</Link>
 									<ul className="sub-menu">
 										<li><Link href="/services/refurbishments">Refurbishments</Link></li>

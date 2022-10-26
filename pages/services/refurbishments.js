@@ -1,16 +1,12 @@
 import React from 'react';
-import Navbar from '../../components/global-components/navbar-v2';
 import PageHeader from '../../components/global-components/page-header';
-import Footer from '../../components/global-components/footer';
 import RefurbishmentService from '../../components/services/Refurbishments';
 
 const Refurbishments = () => {
 	return (
 		<>
-			<Navbar />
 			<PageHeader headertitle=" Full house/' Flat refurbishments" subheader="Full house/Flat refurbishments" />
 			<RefurbishmentService />
-			<Footer />
 		</>
 	);
 };
