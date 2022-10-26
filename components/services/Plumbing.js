@@ -1,40 +1,50 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-class PlumbingService extends Component {
+export const PlumbingService = () => {
 
-	render() {
-
-		let publicUrl = process.env.PUBLIC_URL + '/'
-
-		return <div className="ltn__page-details-area ltn__service-details-area mb-105">
+	return (
+		<div className="ltn__page-details-area ltn__service-details-area mb-105">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-8">
 						<div className="ltn__page-details-inner ltn__service-details-inner">
 							<div className="ltn__blog-img">
-								<img src={publicUrl + "assets/img/service/21.jpg"} alt="Image" />
+								<img src="/valeImages/services/Bathroom_Refurbishment.jpg" alt="Bathroom Refurbishment" />
 							</div>
-							<p> <span className="ltn__first-letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione. </p>
+							<div>
+								<p> <span className="ltn__first-letter">O</span>perating over the last 30 years in and around London and Surrey there are few plumbing jobs we haven’t seen. We have a team of highly skilled plumbers who are able to tackle any job, big or small. We are able to offer a full range of plumbing services including:</p>
+								<br></br>
+							</div>
+							<strong>
+								<div className="row pb-4">
+									<div className="col-lg-6">
+										<ul>
+											<li>Leak investigation/repair</li>
+											<li>Fittings repair/replacement – taps, showers, bath/enclosures/trays, basins, toilets etc</li>
+											<li>Clearing blockages</li>
+											<li>Burst pipework</li>
+											<li>Plumbing valves/stopcock installation and replacement</li>
+										</ul>
+									</div>
+									<div className="col-lg-6">
+										<ul>
+											<li>Shower booster pumps/ zone valves</li>
+											<li>Hot water cylinders & immersion repair/replacement/installation</li>
+											<li>Leaking/faulty cold water tanks</li>
+											<li>Leaking appliance/white goods repair/replacement </li>
+										</ul>
+									</div>
+								</div>
+							</strong>
 							<div className="row">
 								<div className="col-lg-6">
-									<img src={publicUrl + "assets/img/service/31.jpg"} alt="image" />
-									<label>Image caption here.</label>
+									<img src="/valeImages/services/Black-And-White-Bathroom.jpg" alt="Black and White Bathroom" />
+									{/* <label>Image caption here.</label> */}
 								</div>
 								<div className="col-lg-6">
-									<img src={publicUrl + "assets/img/service/32.jpg"} alt="image" />
+									<img src="/valeImages/services/Plumbing-Shower.jpg" alt="Black and White Shower" />
 								</div>
-							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione. </p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-							<div className="ltn__service-list-menu text-uppercase mt-50 d-none">
-								<ul>
-									<li><i className="fas fa-car" /> Front Brakes Repair <span className="service-price">$225.95 <span>Plus Parts</span></span> </li>
-									<li><i className="fas fa-life-ring" /> Rear Brakes Repair <span className="service-price">$225.95 <span>Plus Parts</span></span> </li>
-									<li><i className="fas fa-cog" /> Axle <span className="service-price">$225.95 <span>Plus Parts</span></span> </li>
-									<li><i className="fas fa-car" /> Starters / Alternators <span className="service-price">$225.95 <span>Plus Parts</span></span> </li>
-								</ul>
 							</div>
 						</div>
 					</div>
@@ -43,37 +53,36 @@ class PlumbingService extends Component {
 							{/* Menu Widget */}
 							<div className="widget-2 ltn__menu-widget ltn__menu-widget-2 text-uppercase">
 								<ul className="go-top">
-									<li><a href="/service">Property Management <span><i className="fas fa-arrow-right" /></span></a></li>
-									<li className="active"><a href="/service">Mortgage Service <span><i className="fas fa-arrow-right" /></span></a></li>
-									<li><a href="/service">Consulting Service <span><i className="fas fa-arrow-right" /></span></a></li>
-									<li><a href="/service">Home Buying <span><i className="fas fa-arrow-right" /></span></a></li>
-									<li><a href="/service">Home Selling <span><i className="fas fa-arrow-right" /></span></a></li>
-									<li><a href="/service">Escrow Services <span><i className="fas fa-arrow-right" /></span></a></li>
+									<li ><a href="/services/refurbishments">Refurbishments<span><i className="fas fa-arrow-right" /></span></a></li>
+									<li className="active"><a href="/services/plumbing">Plumbing<span><i className="fas fa-arrow-right" /></span></a></li>
+									<li><a href="/services/gas-works">Gas Works<span><i className="fas fa-arrow-right" /></span></a></li>
+									<li><a href="/services/general-building">General Building<span><i className="fas fa-arrow-right" /></span></a></li>
+									<li><a href="/services/handyman">Handyman<span><i className="fas fa-arrow-right" /></span></a></li>
+									<li><a href="/services/exterior-works">Exterior Works<span><i className="fas fa-arrow-right" /></span></a></li>
 								</ul>
 							</div>
 							{/* Newsletter Widget */}
 							{/* <div className="widget ltn__search-widget ltn__newsletter-widget">                            
-						<h6 className="ltn__widget-sub-title">// subscribe</h6>
-						<h4 className="ltn__widget-title">Get Newsletter</h4>
-						<form action="#">
-							<input type="text" name="search" placeholder="Search" />
-							<button type="submit"><i className="fas fa-search" /></button>
-						</form>
-						<div className="ltn__newsletter-bg-icon">
-							<i className="fas fa-envelope-open-text" />
-						</div>
-						</div> */}
+					<h6 className="ltn__widget-sub-title">// subscribe</h6>
+					<h4 className="ltn__widget-title">Get Newsletter</h4>
+					<form action="#">
+						<input type="text" name="search" placeholder="Search" />
+						<button type="submit"><i className="fas fa-search" /></button>
+					</form>
+					<div className="ltn__newsletter-bg-icon">
+						<i className="fas fa-envelope-open-text" />
+					</div>
+					</div> */}
 							{/* Banner Widget */}
 							<div className="widget ltn__banner-widget go-top">
-								<Link href="/shop"><img src={publicUrl + "assets/img/banner/banner-1.jpg"} alt="Banner Image" /></Link>
+								<img src="/valeImages/services/Plumbing-Sink-And-Shower.jpg" alt="Plumbing Sink And Shower" />
 							</div>
 						</aside>
 					</div>
 				</div>
 			</div>
-		</div>
-
-	}
+		</div >
+	)
 }
 
 export default PlumbingService

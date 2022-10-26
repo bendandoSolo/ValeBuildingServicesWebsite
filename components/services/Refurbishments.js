@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-
 class RefurbishmentService extends Component {
-
 	render() {
-
-		let publicUrl = process.env.PUBLIC_URL + '/'
-
 		return <div className="ltn__page-details-area ltn__service-details-area mb-105">
 			<div className="container">
 				<div className="row">
