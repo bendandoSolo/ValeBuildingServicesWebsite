@@ -29,7 +29,7 @@ class NavbarV2 extends Component {
 											<ul>
 												<li>
 													{/* ltn__language-menu */}
-													<div className="ltn__drop-menu ltn__currency-menu ltn__language-menu">
+													{/* <div className="ltn__drop-menu ltn__currency-menu ltn__language-menu">
 														<ul>
 															<li><a href="#" className="dropdown-toggle"><span className="active-currency">English</span></a>
 																<ul>
@@ -42,7 +42,7 @@ class NavbarV2 extends Component {
 																</ul>
 															</li>
 														</ul>
-													</div>
+													</div> */}
 												</li>
 												{/* <li>
 													<Social />
@@ -84,6 +84,11 @@ class NavbarV2 extends Component {
 													<li className="menu-icon"><Link href="/">Services</Link>
 														<ul>
 															<li><Link href="/services/refurbishments">Refurbishments</Link></li>
+															<li><Link href="/services/plumbing">Plumbing</Link></li>
+															<li><Link href="/services/gas-works">Gas Works</Link></li>
+															<li><Link href="/services/general-building">General Building</Link></li>
+															<li><Link href="/services/handyman">Handyman</Link></li>
+															<li><Link href="/services/exterior-works">Exterior Works</Link></li>
 															{/* <li><Link href="/service">Services</Link></li>
 															<li><Link href="/service-details">Service Details</Link></li>
 															<li><Link href="/portfolio">Portfolio</Link></li>
@@ -133,18 +138,14 @@ class NavbarV2 extends Component {
 						<div className="ltn__utilize-menu">
 							<ul>
 								<li><a href="#">Home</a></li>
-								<li><Link href="/about">Services</Link>
+								<li><Link href="/">Services</Link>
 									<ul className="sub-menu">
-										<li><Link href="/about">About</Link></li>
-										<li><Link href="/service">Services</Link></li>
-										<li><Link href="/service-details">Service Details</Link></li>
-										<li><Link href="/portfolio">Portfolio</Link></li>
-										<li><Link href="/portfolio-v2">Portfolio - 02</Link></li>
-										<li><Link href="/portfolio-details">Portfolio Details</Link></li>
-										<li><Link href="/team">Team</Link></li>
-										<li><Link href="/team-details">Team Details</Link></li>
-										<li><Link href="/faq">FAQ</Link></li>
-										<li><Link href="/location">Google Map Locations</Link></li>
+										<li><Link href="/services/refurbishments">Refurbishments</Link></li>
+										<li><Link href="/services/plumbing">Plumbing</Link></li>
+										<li><Link href="/services/gas-works">Gas Works</Link></li>
+										<li><Link href="/services/general-building">General Building</Link></li>
+										<li><Link href="/services/handyman">Handyman</Link></li>
+										<li><Link href="/services/exterior-works">Exterior Works</Link></li>
 									</ul>
 								</li>
 								{/* <li><Link href="/shop">Shop</Link>

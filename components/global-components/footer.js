@@ -28,9 +28,6 @@ class Footer_v1 extends Component {
 
 	render() {
 
-		let publicUrl = process.env.PUBLIC_URL + '/'
-		let imgattr = "Footer logo"
-
 		return (
 			<footer className="ltn__footer-area  ">
 				<div className="footer-top-area  section-bg-2 plr--5">
@@ -104,12 +101,12 @@ class Footer_v1 extends Component {
 									<h4 className="footer-title">Services</h4>
 									<div className="footer-menu go-top">
 										<ul>
-											<li><Link href="/cart">Service</Link></li>
-											<li><Link href="/wishlist">Service</Link></li>
-											<li><Link href="/login">Service</Link></li>
-											<li><Link href="/checkout">Service</Link></li>
-											<li><Link href="/about">Service</Link></li>
-											<li><Link href="/shop">Service</Link></li>
+											<li><Link href="/services/refurbishments">Refurbishments</Link></li>
+											<li><Link href="/services/plumbing">Plumbing</Link></li>
+											<li><Link href="/services/gas-works">Gas Works</Link></li>
+											<li><Link href="/services/general-building">General Building</Link></li>
+											<li><Link href="/services/handyman">Handyman</Link></li>
+											<li><Link href="/services/exterior-works">Exterior Works</Link></li>
 										</ul>
 									</div>
 								</div>
