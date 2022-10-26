@@ -83,8 +83,8 @@ class NavbarV2 extends Component {
 													<li><Link href="/">Home</Link></li>
 													<li className="menu-icon"><Link href="/">Services</Link>
 														<ul>
-															<li><Link href="/about">About</Link></li>
-															<li><Link href="/service">Services</Link></li>
+															<li><Link href="/services/refurbishments">Refurbishments</Link></li>
+															{/* <li><Link href="/service">Services</Link></li>
 															<li><Link href="/service-details">Service Details</Link></li>
 															<li><Link href="/portfolio">Portfolio</Link></li>
 															<li><Link href="/portfolio-v2">Portfolio - 02</Link></li>
@@ -92,7 +92,7 @@ class NavbarV2 extends Component {
 															<li><Link href="/team">Team</Link></li>
 															<li><Link href="/team-details">Team Details</Link></li>
 															<li><Link href="/faq">FAQ</Link></li>
-															<li><Link href="/location">Google Map Locations</Link></li>
+															<li><Link href="/location">Google Map Locations</Link></li> */}
 														</ul>
 													</li>
 													<li><Link href="/testimonials">Testimonials</Link></li>
