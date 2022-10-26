@@ -8,7 +8,7 @@ const Refurbishments = () => {
 	return (
 		<>
 			<Navbar />
-			<PageHeader headertitle="Full house/flat refurbishments" subheader="Full house/flat refurbishments" />
+			<PageHeader headertitle="Refurbishments" subheader="Refurbishments" />
 			<RefurbishmentService />
 			<Footer />
 		</>
