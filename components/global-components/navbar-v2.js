@@ -80,53 +80,8 @@ class NavbarV2 extends Component {
 										<nav>
 											<div className="ltn__main-menu">
 												<ul>
-													<li className="menu-icon"><Link href="/">Home</Link>
-														<ul className="sub-menu menu-pages-img-show">
-
-															<li>
-																<Link href="/">Home Style 01</Link>
-																{/* <img src={publicUrl + "assets/img/home-demos/home-1.jpg"} alt="#" /> */}
-															</li>
-															<li>
-																<Link href="/home-v2">Home Style 02</Link>
-																{/* <img src={publicUrl + "assets/img/home-demos/home-2.jpg"} alt="#" /> */}
-															</li>
-															<li>
-																<Link href="/home-v3">Home Style 03</Link>
-																{/* <img src={publicUrl + "assets/img/home-demos/home-3.jpg"} alt="#" /> */}
-															</li>
-															<li>
-																<Link href="/home-v4">Home Style 04</Link>
-																{/* <img src={publicUrl + "assets/img/home-demos/home-4.jpg"} alt="#" /> */}
-															</li>
-															<li>
-																<Link href="/home-v5">Home Style 05</Link>
-																{/* <img src={publicUrl + "assets/img/home-demos/home-5.jpg"} alt="#" /> */}
-															</li>
-															<li>
-																<Link href="/home-v6">Home Style 06</Link>
-																{/* <img src={publicUrl + "assets/img/home-demos/home-6.jpg"} alt="#" /> */}
-															</li>
-															<li>
-																<Link href="/home-v7">Home Style 07</Link>
-																{/* <img src={publicUrl + "assets/img/home-demos/home-7.jpg"} alt="#" /> */}
-															</li>
-															<li>
-																<Link href="/home-v8">Home Style 08</Link>
-																{/* <img src={publicUrl + "assets/img/home-demos/home-8.jpg"} alt="#" /> */}
-															</li>
-															<li>
-																<Link href="/home-v9">Home Style 09</Link>
-																{/* <img src={publicUrl + "assets/img/home-demos/home-9.jpg"} alt="#" /> */}
-															</li>
-															<li>
-																<Link href="/home-v10">Home Style 10</Link>
-																{/* <img src={publicUrl + "assets/img/home-demos/home-11.jpg"} alt="#" /> */}
-															</li>
-
-														</ul>
-													</li>
-													<li className="menu-icon"><Link href="/about">About</Link>
+													<li><Link href="/">Home</Link></li>
+													<li className="menu-icon"><Link href="/">Services</Link>
 														<ul>
 															<li><Link href="/about">About</Link></li>
 															<li><Link href="/service">Services</Link></li>
@@ -140,68 +95,10 @@ class NavbarV2 extends Component {
 															<li><Link href="/location">Google Map Locations</Link></li>
 														</ul>
 													</li>
-													<li className="menu-icon"><Link href="/shop">Shop</Link>
-														<ul>
-															<li><Link href="/shop">Shop</Link></li>
-															<li><Link href="/shop-grid">Shop Grid</Link></li>
-															<li><Link href="/shop-left-sidebar">Shop Left sidebar</Link></li>
-															<li><Link href="/shop-right-sidebar">Shop Right sidebar</Link></li>
-															<li><Link href="/product-details">Shop Details</Link></li>
-															<li><Link href="/cart">Cart</Link></li>
-															<li><Link href="/checkout">Checkout</Link></li>
-															<li><Link href="/my-account">My Account</Link></li>
-															<li><Link href="/login">Sign in</Link></li>
-															<li><Link href="/register">Register</Link></li>
-														</ul>
-													</li>
-													<li className="menu-icon"><Link href="/blog-grid">News</Link>
-														<ul>
-															<li><Link href="/blog">News</Link></li>
-															<li><Link href="/blog-grid">News Grid</Link></li>
-															<li><Link href="/blog-left-sidebar">News Left sidebar</Link></li>
-															<li><Link href="/blog-right-sidebar">News Right sidebar</Link></li>
-															<li><Link href="/blog-details">News details</Link></li>
-														</ul>
-													</li>
-													<li className="menu-icon"><a href="#">Pages</a>
-														<ul className="mega-menu">
-															<li><a href="#">Inner Pages</a>
-																<ul>
-																	<li><Link href="/portfolio">Portfolio</Link></li>
-																	<li><Link href="/portfolio-v2">Portfolio - 02</Link></li>
-																	<li><Link href="/portfolio-details">Portfolio Details</Link></li>
-																	<li><Link href="/team">Team</Link></li>
-																	<li><Link href="/team-details">Team Details</Link></li>
-																	<li><Link href="/faq">FAQ</Link></li>
-																</ul>
-															</li>
-															<li><a href="#">Inner Pages</a>
-																<ul>
-																	<li><Link href="/history">History</Link></li>
-																	<li><Link href="/add-listing">Add Listing</Link></li>
-																	<li><Link href="/location">Google Map Locations</Link></li>
-																	<li><Link href="/404">404</Link></li>
-																	<li><Link href="/contact">Contact</Link></li>
-																	<li><Link href="/coming-soon">Coming Soon</Link></li>
-																</ul>
-															</li>
-															<li><Link href="#">Shop Pages</Link>
-																<ul>
-																	<li><Link href="/shop">Shop</Link></li>
-																	<li><Link href="/shop-left-sidebar">Shop Left sidebar</Link></li>
-																	<li><Link href="/shop-right-sidebar">Shop right sidebar</Link></li>
-																	<li><Link href="/shop-grid">Shop Grid</Link></li>
-																	<li><Link href="/product-details">Shop details </Link></li>
-																	<li><Link href="/cart">Cart</Link></li>
-																</ul>
-															</li>
-															<li><Link href="/shop"><img src={publicUrl + "assets/img/banner/menu-banner-1.jpg"} alt="#" /></Link>
-															</li>
-														</ul>
-													</li>
+													<li><Link href="/testimonials">Testimonials</Link></li>
 													<li><Link href="/contact">Contact</Link></li>
 													<li className="special-link">
-														<Link href="/add-listing">Add Listing</Link>
+														<a href="tel:02036673833">Call: 02036673833</a>
 													</li>
 												</ul>
 											</div>
@@ -222,9 +119,9 @@ class NavbarV2 extends Component {
 								</div>
 							</div>
 						</div>
-					</div>
+					</div >
 					{/* ltn__header-middle-area end */}
-				</header>
+				</header >
 				<div id="ltn__utilize-mobile-menu" className="ltn__utilize ltn__utilize-mobile-menu">
 					<div className="ltn__utilize-menu-inner ltn__scrollbar">
 						<div className="ltn__utilize-menu-head">
@@ -233,29 +130,10 @@ class NavbarV2 extends Component {
 							</div>
 							<button className="ltn__utilize-close">×</button>
 						</div>
-						<div className="ltn__utilize-menu-search-form">
-							<form action={"#"}>
-								<input type="text" placeholder="Search..." />
-								<button><i className="fas fa-search" /></button>
-							</form>
-						</div>
 						<div className="ltn__utilize-menu">
 							<ul>
-								<li><a href="#">Home</a>
-									<ul className="sub-menu">
-										<li><Link href="/">Home Style 01</Link></li>
-										<li><Link href="/home-v2">Home Style 02</Link></li>
-										<li><Link href="/home-v3">Home Style 03</Link></li>
-										<li><Link href="/home-v4">Home Style 04</Link></li>
-										<li><Link href="/home-v5">Home Style 05 </Link></li>
-										<li><Link href="/home-v6">Home Style 06</Link></li>
-										<li><Link href="/home-v7">Home Style 07</Link></li>
-										<li><Link href="/home-v8">Home Style 08</Link></li>
-										<li><Link href="/home-v9">Home Style 09</Link></li>
-										<li><Link href="/home-v10">Home Style 10</Link></li>
-									</ul>
-								</li>
-								<li><Link href="/about">About</Link>
+								<li><a href="#">Home</a></li>
+								<li><Link href="/about">Services</Link>
 									<ul className="sub-menu">
 										<li><Link href="/about">About</Link></li>
 										<li><Link href="/service">Services</Link></li>
@@ -269,92 +147,58 @@ class NavbarV2 extends Component {
 										<li><Link href="/location">Google Map Locations</Link></li>
 									</ul>
 								</li>
-								<li><Link href="/shop">Shop</Link>
-									<ul className="sub-menu">
-										<li><Link href="/shop">Shop</Link></li>
-										<li><Link href="/shop-grid">Shop Grid</Link></li>
-										<li><Link href="/shop-left-sidebar">Shop Left sidebar</Link></li>
-										<li><Link href="/shop-right-sidebar">Shop Right sidebar</Link></li>
-										<li><Link href="/product-details">Shop Details</Link></li>
-										<li><Link href="/cart">Cart</Link></li>
-										<li><Link href="/checkout">Checkout</Link></li>
-										<li><Link href="/my-account">My Account</Link></li>
-										<li><Link href="/login">Sign in</Link></li>
-										<li><Link href="/register">Register</Link></li>
-									</ul>
-								</li>
-								<li><Link href="/blog-grid">News</Link>
-									<ul className="sub-menu">
-										<li><Link href="/blog">News</Link></li>
-										<li><Link href="/blog-grid">News Grid</Link></li>
-										<li><Link href="/blog-left-sidebar">News Left sidebar</Link></li>
-										<li><Link href="/blog-right-sidebar">News Right sidebar</Link></li>
-										<li><Link href="/blog-details">News details</Link></li>
-									</ul>
-								</li>
-								<li><Link href="#">Pages</Link>
-									<ul className="sub-menu">
-										<li><Link href="/about">About</Link></li>
-										<li><Link href="/service">Services</Link></li>
-										<li><Link href="/service-details">Service Details</Link></li>
-										<li><Link href="/portfolio">Portfolio</Link></li>
-										<li><Link href="/portfolio-2">Portfolio - 02</Link></li>
-										<li><Link href="/portfolio-details">Portfolio Details</Link></li>
-										<li><Link href="/team">Team</Link></li>
-										<li><Link href="/team-details">Team Details</Link></li>
-										<li><Link href="/faq">FAQ</Link></li>
-										<li><Link href="/history">History</Link></li>
-										<li><Link href="/add-listing">Add Listing</Link></li>
-										<li><Link href="/locations">Google Map Locations</Link></li>
-										<li><Link href="/404">404</Link></li>
-										<li><Link href="/contact">Contact</Link></li>
-										<li><Link href="/coming-soon">Coming Soon</Link></li>
-									</ul>
-								</li>
+								{/* <li><Link href="/shop">Shop</Link>
+								<ul className="sub-menu">
+									<li><Link href="/shop">Shop</Link></li>
+									<li><Link href="/shop-grid">Shop Grid</Link></li>
+									<li><Link href="/shop-left-sidebar">Shop Left sidebar</Link></li>
+									<li><Link href="/shop-right-sidebar">Shop Right sidebar</Link></li>
+									<li><Link href="/product-details">Shop Details</Link></li>
+									<li><Link href="/cart">Cart</Link></li>
+									<li><Link href="/checkout">Checkout</Link></li>
+									<li><Link href="/my-account">My Account</Link></li>
+									<li><Link href="/login">Sign in</Link></li>
+									<li><Link href="/register">Register</Link></li>
+								</ul>
+							</li>
+							<li><Link href="/blog-grid">News</Link>
+								<ul className="sub-menu">
+									<li><Link href="/blog">News</Link></li>
+									<li><Link href="/blog-grid">News Grid</Link></li>
+									<li><Link href="/blog-left-sidebar">News Left sidebar</Link></li>
+									<li><Link href="/blog-right-sidebar">News Right sidebar</Link></li>
+									<li><Link href="/blog-details">News details</Link></li>
+								</ul>
+							</li>
+							<li><Link href="#">Pages</Link>
+								<ul className="sub-menu">
+									<li><Link href="/about">About</Link></li>
+									<li><Link href="/service">Services</Link></li>
+									<li><Link href="/service-details">Service Details</Link></li>
+									<li><Link href="/portfolio">Portfolio</Link></li>
+									<li><Link href="/portfolio-2">Portfolio - 02</Link></li>
+									<li><Link href="/portfolio-details">Portfolio Details</Link></li>
+									<li><Link href="/team">Team</Link></li>
+									<li><Link href="/team-details">Team Details</Link></li>
+									<li><Link href="/faq">FAQ</Link></li>
+									<li><Link href="/history">History</Link></li>
+									<li><Link href="/add-listing">Add Listing</Link></li>
+									<li><Link href="/locations">Google Map Locations</Link></li>
+									<li><Link href="/404">404</Link></li>
+									<li><Link href="/contact">Contact</Link></li>
+									<li><Link href="/coming-soon">Coming Soon</Link></li>
+								</ul>
+							</li> */}
+								<li><Link href="/testimonials">Testimonials</Link></li>
 								<li><Link href="/contact">Contact</Link></li>
-							</ul>
-						</div>
-						<div className="ltn__utilize-buttons ltn__utilize-buttons-2">
-							{/* <ul>
-								<li>
-									<Link href="/my-account" title="My Account">
-										<span className="utilize-btn-icon">
-											<i className="far fa-user" />
-										</span>
-										My Account
-									</Link>
+								<li className="special-link">
+									<a href="tel:02036673833">Call Us On: 02036673833</a>
 								</li>
-								<li>
-									<Link href="/wishlist" title="Wishlist">
-										<span className="utilize-btn-icon">
-											<i className="far fa-heart" />
-											<sup>3</sup>
-										</span>
-										Wishlist
-									</Link>
-								</li>
-								<li>
-									<Link href="/cart" title="Shoping Cart">
-										<span className="utilize-btn-icon">
-											<i className="fas fa-shopping-cart" />
-											<sup>5</sup>
-										</span>
-										Shoping Cart
-									</Link>
-								</li>
-							</ul> */}
-						</div>
-						<div className="ltn__social-media-2">
-							<ul>
-								<li><a href="#" title="Facebook"><i className="fab fa-facebook-f" /></a></li>
-								<li><a href="#" title="Twitter"><i className="fab fa-twitter" /></a></li>
-								<li><a href="#" title="Linkedin"><i className="fab fa-linkedin" /></a></li>
-								<li><a href="#" title="Instagram"><i className="fab fa-instagram" /></a></li>
 							</ul>
 						</div>
 					</div>
 				</div>
-			</div>
+			</div >
 		)
 	}
 }
