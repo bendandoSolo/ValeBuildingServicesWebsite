@@ -16,8 +16,8 @@ export default function Home() {
 			<Banner />
 			<Featuresv1 customClass="ltn__feature-area section-bg-1 pt-120 pb-90 mb-120---" />
 			<Aboutv3 />
-			<AboutV2 />
-			<Aboutv1 />
+			{/* <AboutV2 />
+			<Aboutv1 /> */}
 		</>
 	)
 }
