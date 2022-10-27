@@ -25,7 +25,6 @@ class AboutV3 extends Component {
 							</div>
 						</div>
 					</div>
-
 				</div>
 
 
@@ -91,6 +90,8 @@ class AboutV3 extends Component {
 					</div>
 				</div>
 			</div>
+			<h6 className='text-center pt-5'>NB: All images on this website are taken from Building Works that are carried out by us, no stock images have been used</h6>
+
 		</div>
 	}
 }

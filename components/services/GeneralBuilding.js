@@ -2,40 +2,39 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 
 class GeneralBuildingService extends Component {
-
 	render() {
-
-		let publicUrl = process.env.PUBLIC_URL + '/'
-
 		return <div className="ltn__page-details-area ltn__service-details-area mb-105">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-8">
 						<div className="ltn__page-details-inner ltn__service-details-inner">
 							<div className="ltn__blog-img">
-								<img src={publicUrl + "assets/img/service/21.jpg"} alt="Image" />
+								<img src="/valeImages/homeCarousel/refurbishment.jpg" alt="Refurbishment" />
 							</div>
-							<p> <span className="ltn__first-letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exerc itation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione. </p>
+							<div className='row'>
+								<p> <span className="ltn__first-letter">G</span>eneral Building Works are hard to define.
+									They are the building works that are not covered by the other services we offer. And that covers a lot of other Building Services!
+								</p>
+							</div>
 							<div className="row">
 								<div className="col-lg-6">
-									<img src={publicUrl + "assets/img/service/31.jpg"} alt="image" />
-									<label>Image caption here.</label>
+									<img src="/valeImages/services/Kitchen_Cabinets.jpg" alt="Kitchen Cabinets" />
+									{/* <label>Image caption here.</label> */}
 								</div>
 								<div className="col-lg-6">
-									<img src={publicUrl + "assets/img/service/32.jpg"} alt="image" />
+									<img src="/valeImages/services/Building_Works_Stairs.jpg" alt="Building Works Stairs" />
 								</div>
 							</div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione. </p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-							<div className="ltn__service-list-menu text-uppercase mt-50 d-none">
+							<strong>
+								<p className='pt-3'>General Building Work Services we offer include:</p>
 								<ul>
-									<li><i className="fas fa-car" /> Front Brakes Repair <span className="service-price">$225.95 <span>Plus Parts</span></span> </li>
-									<li><i className="fas fa-life-ring" /> Rear Brakes Repair <span className="service-price">$225.95 <span>Plus Parts</span></span> </li>
-									<li><i className="fas fa-cog" /> Axle <span className="service-price">$225.95 <span>Plus Parts</span></span> </li>
-									<li><i className="fas fa-car" /> Starters / Alternators <span className="service-price">$225.95 <span>Plus Parts</span></span> </li>
+									<li>Tiling: ceramic, porcelain, and natural stone</li>
+									<li>Flooring: laminate, engineered and solid wood flooring, vinyl/lino replacement/installation</li>
+									<li>Decorating: from a single wall to a full property/block </li>
+									<li>Carpentry: repair/replacement/maintenance</li>
+									<li>Structural, stud work & plastering</li>
 								</ul>
-							</div>
+							</strong>
 						</div>
 					</div>
 					<div className="col-lg-4">
@@ -43,12 +42,12 @@ class GeneralBuildingService extends Component {
 							{/* Menu Widget */}
 							<div className="widget-2 ltn__menu-widget ltn__menu-widget-2 text-uppercase">
 								<ul className="go-top">
-									<li><a href="/service">Property Management <span><i className="fas fa-arrow-right" /></span></a></li>
-									<li className="active"><a href="/service">Mortgage Service <span><i className="fas fa-arrow-right" /></span></a></li>
-									<li><a href="/service">Consulting Service <span><i className="fas fa-arrow-right" /></span></a></li>
-									<li><a href="/service">Home Buying <span><i className="fas fa-arrow-right" /></span></a></li>
-									<li><a href="/service">Home Selling <span><i className="fas fa-arrow-right" /></span></a></li>
-									<li><a href="/service">Escrow Services <span><i className="fas fa-arrow-right" /></span></a></li>
+									<li ><a href="/services/refurbishments">Refurbishments<span><i className="fas fa-arrow-right" /></span></a></li>
+									<li><a href="/services/plumbing">Plumbing<span><i className="fas fa-arrow-right" /></span></a></li>
+									<li><a href="/services/gas-works">Gas Works<span><i className="fas fa-arrow-right" /></span></a></li>
+									<li className="active"><a href="/services/general-building">General Building<span><i className="fas fa-arrow-right" /></span></a></li>
+									<li><a href="/services/handyman">Handyman<span><i className="fas fa-arrow-right" /></span></a></li>
+									<li><a href="/services/exterior-works">Exterior Works<span><i className="fas fa-arrow-right" /></span></a></li>
 								</ul>
 							</div>
 							{/* Newsletter Widget */}
@@ -65,14 +64,13 @@ class GeneralBuildingService extends Component {
 						</div> */}
 							{/* Banner Widget */}
 							<div className="widget ltn__banner-widget go-top">
-								<Link href="/shop"><img src={publicUrl + "assets/img/banner/banner-1.jpg"} alt="Banner Image" /></Link>
+								<img src="/valeImages/services/Room_And_Stairs_Refurbishment.jpg" alt="Room And Stairs Refurbishment" />
 							</div>
 						</aside>
 					</div>
 				</div>
 			</div>
 		</div>
-
 	}
 }
 
