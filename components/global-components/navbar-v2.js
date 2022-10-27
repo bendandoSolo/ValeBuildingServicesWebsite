@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-//import { Link } from 'react-router-dom';
+//import { a } from 'react-router-dom';
 //import Social from '../section-components/social';
-import Link from 'next/link';
+//import a from 'next/a';
 
 class NavbarV2 extends Component {
 
@@ -33,12 +33,12 @@ class NavbarV2 extends Component {
 														<ul>
 															<li><a href="#" className="dropdown-toggle"><span className="active-currency">English</span></a>
 																<ul>
-																	<li><Link href="#">Arabic</Link></li>
-																	<li><Link href="#">Bengali</Link></li>
-																	<li><Link href="#">Chinese</Link></li>
-																	<li><Link href="#">English</Link></li>
-																	<li><Link href="#">French</Link></li>
-																	<li><Link href="#">Hindi</Link></li>
+																	<li><a href="#">Arabic</a></li>
+																	<li><a href="#">Bengali</a></li>
+																	<li><a href="#">Chinese</a></li>
+																	<li><a href="#">English</a></li>
+																	<li><a href="#">French</a></li>
+																	<li><a href="#">Hindi</a></li>
 																</ul>
 															</li>
 														</ul>
@@ -62,7 +62,7 @@ class NavbarV2 extends Component {
 								<div className="col">
 									<div className="site-logo-wrap">
 										<div className="site-logo go-top">
-											<Link href="/"><img src={publicUrl + "assets/img/logo.png"} alt="Logo" /></Link>
+											<a href="/"><img src={publicUrl + "assets/img/logo.png"} alt="Logo" /></a>
 										</div>
 										<div className="get-support clearfix d-none">
 											<div className="get-support-icon">
@@ -80,28 +80,28 @@ class NavbarV2 extends Component {
 										<nav>
 											<div className="ltn__main-menu">
 												<ul>
-													<li><Link href="/">Home</Link></li>
-													<li className="menu-icon"><Link href="/">Services</Link>
+													<li><a href="/">Home</a></li>
+													<li className="menu-icon"><a href="/">Services</a>
 														<ul>
-															<li><Link href="/services/refurbishments">Refurbishments</Link></li>
-															<li><Link href="/services/plumbing">Plumbing</Link></li>
-															<li><Link href="/services/gas-works">Gas Works</Link></li>
-															<li><Link href="/services/general-building">General Building</Link></li>
-															<li><Link href="/services/handyman">Handyman</Link></li>
-															<li><Link href="/services/exterior-works">Exterior Works</Link></li>
-															{/* <li><Link href="/service">Services</Link></li>
-															<li><Link href="/service-details">Service Details</Link></li>
-															<li><Link href="/portfolio">Portfolio</Link></li>
-															<li><Link href="/portfolio-v2">Portfolio - 02</Link></li>
-															<li><Link href="/portfolio-details">Portfolio Details</Link></li>
-															<li><Link href="/team">Team</Link></li>
-															<li><Link href="/team-details">Team Details</Link></li>
-															<li><Link href="/faq">FAQ</Link></li>
-															<li><Link href="/location">Google Map Locations</Link></li> */}
+															<li><a href="/services/refurbishments">Refurbishments</a></li>
+															<li><a href="/services/plumbing">Plumbing</a></li>
+															<li><a href="/services/gas-works">Gas Works</a></li>
+															<li><a href="/services/general-building">General Building</a></li>
+															<li><a href="/services/handyman">Handyman</a></li>
+															<li><a href="/services/exterior-works">Exterior Works</a></li>
+															{/* <li><a href="/service">Services</a></li>
+															<li><a href="/service-details">Service Details</a></li>
+															<li><a href="/portfolio">Portfolio</a></li>
+															<li><a href="/portfolio-v2">Portfolio - 02</a></li>
+															<li><a href="/portfolio-details">Portfolio Details</a></li>
+															<li><a href="/team">Team</a></li>
+															<li><a href="/team-details">Team Details</a></li>
+															<li><a href="/faq">FAQ</a></li>
+															<li><a href="/location">Google Map Locations</a></li> */}
 														</ul>
 													</li>
-													<li><Link href="/testimonials">Testimonials</Link></li>
-													<li><Link href="/contact">Contact</Link></li>
+													<li><a href="/testimonials">Testimonials</a></li>
+													<li><a href="/contact">Contact</a></li>
 													<li className="special-link">
 														<a href="tel:02036673833">Call: 02036673833</a>
 													</li>
@@ -131,67 +131,67 @@ class NavbarV2 extends Component {
 					<div className="ltn__utilize-menu-inner ltn__scrollbar">
 						<div className="ltn__utilize-menu-head">
 							<div className="site-logo">
-								<Link href="/"><img src={publicUrl + "assets/img/logo.png"} alt="Logo" /></Link>
+								<a href="/"><img src={publicUrl + "assets/img/logo.png"} alt="Logo" /></a>
 							</div>
 							<button className="ltn__utilize-close">×</button>
 						</div>
 						<div className="ltn__utilize-menu">
 							<ul>
 								<li><a href="/">Home</a></li>
-								<li><Link href="/">Services</Link>
+								<li><a href="/">Services</a>
 									<ul className="sub-menu">
-										<li><Link href="/services/refurbishments">Refurbishments</Link></li>
-										<li><Link href="/services/plumbing">Plumbing</Link></li>
-										<li><Link href="/services/gas-works">Gas Works</Link></li>
-										<li><Link href="/services/general-building">General Building</Link></li>
-										<li><Link href="/services/handyman">Handyman</Link></li>
-										<li><Link href="/services/exterior-works">Exterior Works</Link></li>
+										<li><a href="/services/refurbishments">Refurbishments</a></li>
+										<li><a href="/services/plumbing">Plumbing</a></li>
+										<li><a href="/services/gas-works">Gas Works</a></li>
+										<li><a href="/services/general-building">General Building</a></li>
+										<li><a href="/services/handyman">Handyman</a></li>
+										<li><a href="/services/exterior-works">Exterior Works</a></li>
 									</ul>
 								</li>
-								{/* <li><Link href="/shop">Shop</Link>
+								{/* <li><a href="/shop">Shop</a>
 								<ul className="sub-menu">
-									<li><Link href="/shop">Shop</Link></li>
-									<li><Link href="/shop-grid">Shop Grid</Link></li>
-									<li><Link href="/shop-left-sidebar">Shop Left sidebar</Link></li>
-									<li><Link href="/shop-right-sidebar">Shop Right sidebar</Link></li>
-									<li><Link href="/product-details">Shop Details</Link></li>
-									<li><Link href="/cart">Cart</Link></li>
-									<li><Link href="/checkout">Checkout</Link></li>
-									<li><Link href="/my-account">My Account</Link></li>
-									<li><Link href="/login">Sign in</Link></li>
-									<li><Link href="/register">Register</Link></li>
+									<li><a href="/shop">Shop</a></li>
+									<li><a href="/shop-grid">Shop Grid</a></li>
+									<li><a href="/shop-left-sidebar">Shop Left sidebar</a></li>
+									<li><a href="/shop-right-sidebar">Shop Right sidebar</a></li>
+									<li><a href="/product-details">Shop Details</a></li>
+									<li><a href="/cart">Cart</a></li>
+									<li><a href="/checkout">Checkout</a></li>
+									<li><a href="/my-account">My Account</a></li>
+									<li><a href="/login">Sign in</a></li>
+									<li><a href="/register">Register</a></li>
 								</ul>
 							</li>
-							<li><Link href="/blog-grid">News</Link>
+							<li><a href="/blog-grid">News</a>
 								<ul className="sub-menu">
-									<li><Link href="/blog">News</Link></li>
-									<li><Link href="/blog-grid">News Grid</Link></li>
-									<li><Link href="/blog-left-sidebar">News Left sidebar</Link></li>
-									<li><Link href="/blog-right-sidebar">News Right sidebar</Link></li>
-									<li><Link href="/blog-details">News details</Link></li>
+									<li><a href="/blog">News</a></li>
+									<li><a href="/blog-grid">News Grid</a></li>
+									<li><a href="/blog-left-sidebar">News Left sidebar</a></li>
+									<li><a href="/blog-right-sidebar">News Right sidebar</a></li>
+									<li><a href="/blog-details">News details</a></li>
 								</ul>
 							</li>
-							<li><Link href="#">Pages</Link>
+							<li><a href="#">Pages</a>
 								<ul className="sub-menu">
-									<li><Link href="/about">About</Link></li>
-									<li><Link href="/service">Services</Link></li>
-									<li><Link href="/service-details">Service Details</Link></li>
-									<li><Link href="/portfolio">Portfolio</Link></li>
-									<li><Link href="/portfolio-2">Portfolio - 02</Link></li>
-									<li><Link href="/portfolio-details">Portfolio Details</Link></li>
-									<li><Link href="/team">Team</Link></li>
-									<li><Link href="/team-details">Team Details</Link></li>
-									<li><Link href="/faq">FAQ</Link></li>
-									<li><Link href="/history">History</Link></li>
-									<li><Link href="/add-listing">Add Listing</Link></li>
-									<li><Link href="/locations">Google Map Locations</Link></li>
-									<li><Link href="/404">404</Link></li>
-									<li><Link href="/contact">Contact</Link></li>
-									<li><Link href="/coming-soon">Coming Soon</Link></li>
+									<li><a href="/about">About</a></li>
+									<li><a href="/service">Services</a></li>
+									<li><a href="/service-details">Service Details</a></li>
+									<li><a href="/portfolio">Portfolio</a></li>
+									<li><a href="/portfolio-2">Portfolio - 02</a></li>
+									<li><a href="/portfolio-details">Portfolio Details</a></li>
+									<li><a href="/team">Team</a></li>
+									<li><a href="/team-details">Team Details</a></li>
+									<li><a href="/faq">FAQ</a></li>
+									<li><a href="/history">History</a></li>
+									<li><a href="/add-listing">Add Listing</a></li>
+									<li><a href="/locations">Google Map Locations</a></li>
+									<li><a href="/404">404</a></li>
+									<li><a href="/contact">Contact</a></li>
+									<li><a href="/coming-soon">Coming Soon</a></li>
 								</ul>
 							</li> */}
-								<li><Link href="/testimonials">Testimonials</Link></li>
-								<li><Link href="/contact">Contact</Link></li>
+								<li><a href="/testimonials">Testimonials</a></li>
+								<li><a href="/contact">Contact</a></li>
 								<li className="special-link">
 									<a href="tel:02036673833">Call Us On: 02036673833</a>
 								</li>
