@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Issues
+
+scripts using jQuery are a plague upon this project, ensuring loading plugins.js first before the rest of the site helps,
+however we still have issues with main.js when the windows resize, really we need to remove all the plugins and use MUI.
+If issues persist this approach will have to be taken.
+
+
 ## Getting Started
 
 First, run the development server:
