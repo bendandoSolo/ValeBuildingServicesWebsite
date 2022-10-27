@@ -21,7 +21,7 @@ class RefurbishmentService extends Component {
 									{/* <label>Image caption here.</label> */}
 								</div>
 								<div className="col-lg-6">
-									<img src="/valeImages/services/Bathroom_Refurbishment.jpg" alt="Bathroom Refurbishment" />
+									<img src="/valeImages/services/Kitchen_Refurbishment_2.jpg" alt="Kitchen Refurbishment" />
 								</div>
 							</div>
 							<p>After designing a package for you we perform the gutting, structural, stud work and plastering.</p>
@@ -57,9 +57,9 @@ class RefurbishmentService extends Component {
 						</div>
 						</div> */}
 							{/* Banner Widget */}
-							{/* <div className="widget ltn__banner-widget go-top">
-								<Link href="/shop"><img src={publicUrl + "assets/img/banner/banner-1.jpg"} alt="Banner Image" /></Link>
-							</div> */}
+							<div className="widget ltn__banner-widget go-top">
+								<img src="/valeImages/services/Bathroom_Refurbishment.jpg" alt="Bathroom Refurbishment" />
+							</div>
 						</aside>
 					</div>
 				</div>
