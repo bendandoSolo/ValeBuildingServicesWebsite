@@ -60,7 +60,7 @@ class ContactForm extends Component {
 				<div className="row">
 					<div className="col-lg-12">
 						<div className="ltn__form-box contact-form-box box-shadow white-bg">
-							<h4 className="title-2">Get A Quote</h4>
+							<h4 className="title-2">Get In Touch</h4>
 							<form id="contact-form" action={publicUrl + "mail.php"} method="post">
 								<div className="row">
 									<div className="col-md-6">
@@ -73,7 +73,7 @@ class ContactForm extends Component {
 											<input type="email" name="email" placeholder="Enter email address" />
 										</div>
 									</div>
-									<div className="col-md-6">
+									{/* <div className="col-md-6">
 										<div className="input-item" >
 											<select className="nice-select" name="service">
 												<option>Select Service Type</option>
@@ -85,7 +85,7 @@ class ContactForm extends Component {
 												<option>Escrow Services</option>
 											</select>
 										</div>
-									</div>
+									</div> */}
 									<div className="col-md-6">
 										<div className="input-item input-item-phone ltn__custom-icon">
 											<input type="text" name="phone" placeholder="Enter phone number" />
@@ -95,9 +95,9 @@ class ContactForm extends Component {
 								<div className="input-item input-item-textarea ltn__custom-icon">
 									<textarea name="message" placeholder="Enter message" defaultValue={""} />
 								</div>
-								<p><label className="input-info-save mb-0"><input type="checkbox" name="agree" /> Save my name, email, and website in this browser for the next time I comment.</label></p>
+								{/* <p><label className="input-info-save mb-0"><input type="checkbox" name="agree" /> Save my name, email, and website in this browser for the next time I comment.</label></p> */}
 								<div className="btn-wrapper mt-0">
-									<button className="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">get a free service</button>
+									<button className="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Send Message</button>
 								</div>
 								<p className="form-messege mb-0 mt-20" />
 							</form>
