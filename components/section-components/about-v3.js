@@ -4,7 +4,6 @@ import Link from 'next/link';
 class AboutV3 extends Component {
 
 	render() {
-
 		return <div className="ltn__about-us-area pt-115 pb-100 ">
 			<div className="container">
 				<div className="section-title-area ltn__section-title-2--- mb-30">
@@ -27,16 +26,13 @@ class AboutV3 extends Component {
 					</div>
 				</div>
 
-
-
-
 				<div className="row pt-3">
 					<div className="col-lg-6 align-self-center">
 						<div className="about-us-info-wrap">
 
 							<div className="ltn__feature-item ltn__feature-item-3">
 								<div className="ltn__feature-icon">
-									<span><i className="flaticon-house-4" /></span>
+									<span><i className="flaticon-apartment-1" /></span>
 								</div>
 								<div className="ltn__feature-info">
 									<p>Professional and expert service covering a wide range of property maintenance and refurbishment</p>
@@ -44,7 +40,7 @@ class AboutV3 extends Component {
 							</div>
 							<div className="ltn__feature-item ltn__feature-item-3">
 								<div className="ltn__feature-icon">
-									<span><i className="flaticon-call-center-agent" /></span>
+									<span><i className="flaticon-google-docs" /></span>
 								</div>
 								<div className="ltn__feature-info">
 									<p>Certified and accredited – Gas safe & Vaillant Advance Installer </p>
@@ -52,7 +48,8 @@ class AboutV3 extends Component {
 							</div>
 							<div className="ltn__feature-item ltn__feature-item-3">
 								<div className="ltn__feature-icon">
-									<span><i className="flaticon-maps-and-location" /></span>
+									<span><i className="flaticon-house-4" /></span>
+
 								</div>
 								<div className="ltn__feature-info">
 									<p>Clean and efficient</p>
@@ -64,7 +61,9 @@ class AboutV3 extends Component {
 						<div className="about-us-info-wrap">
 							<div className="ltn__feature-item ltn__feature-item-3">
 								<div className="ltn__feature-icon">
-									<span><i className="flaticon-house-4" /></span>
+									{/* <span><i className="flaticon-call-center-agent" /></span> */}
+									<span><i className="flaticon-secure-shield" /></span>
+									{/* <span><i className="flaticon-support" /></span> */}
 								</div>
 								<div className="ltn__feature-info">
 									<p>12 months insurance backed labour guarantee. Materials covered under manufacturers guarantee/warranty</p>
@@ -72,7 +71,7 @@ class AboutV3 extends Component {
 							</div>
 							<div className="ltn__feature-item ltn__feature-item-3">
 								<div className="ltn__feature-icon">
-									<span><i className="flaticon-call-center-agent" /></span>
+									<span><i className="flaticon-official-documents" /></span>
 								</div>
 								<div className="ltn__feature-info">
 									<p>Fully detailed estimates including breakdowns/scheduling</p>
@@ -80,7 +79,9 @@ class AboutV3 extends Component {
 							</div>
 							<div className="ltn__feature-item ltn__feature-item-3">
 								<div className="ltn__feature-icon">
-									<span><i className="flaticon-maps-and-location" /></span>
+									<span><i className="flaticon-deal" /></span>
+									{/* <span><i className="flaticon-buy-home" /></span> */}
+
 								</div>
 								<div className="ltn__feature-info">
 									<p>No hidden charges or fees</p>
@@ -91,7 +92,6 @@ class AboutV3 extends Component {
 				</div>
 			</div>
 			<h6 className='text-center pt-5'>NB: All images on this website are taken from Building Works that are carried out by us, no stock images have been used</h6>
-
 		</div>
 	}
 }
