@@ -5,7 +5,7 @@ class ContactInfo extends Component {
 
 		let publicUrl = '';//process.env.PUBLIC_URL+'/'
 
-		return <div className="ltn__contact-address-area mb-90">
+		return <div className="ltn__contact-address-area mb-60">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-4">
