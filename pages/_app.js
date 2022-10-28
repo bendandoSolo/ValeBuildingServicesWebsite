@@ -1,8 +1,8 @@
 import '../public/assets/css/font-icons.css'
 import '../public/assets/css/plugins.css';
-import '../public/assets/css/style.css';
+//import '../public/assets/css/style.css';
 import '../public/assets/css/responsive.css';
-//import '../public/assets/sass/style.scss';
+import '../public/assets/sass/style.scss';
 import '../public/assets/css/custom.scss'
 
 import Script from 'next/script';

@@ -180,16 +180,18 @@
                 opacity: 0;
                 visibility: hidden;
                 margin-left: -20px;
-                color: var(--ltn__secondary-color);
+                color: var(--footer-link-hover-color);
             }
         }
         &:hover {
             a {
+					 color: var(--footer-link-hover-color);
                 padding-left: 20px;
                 &::before {
                     opacity: 1;
                     visibility: visible;
                     margin-left: 0;
+						  color: var(--footer-link-hover-color);
                 }
             }
         }
