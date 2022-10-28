@@ -7,10 +7,8 @@ import ExteriorWorksService from '../../components/services/ExteriorWorks';
 const ExteriorWorks = () => {
 	return (
 		<>
-			<Navbar />
 			<PageHeader headertitle="Exterior Works" subheader="Exterior Works" />
 			<ExteriorWorksService />
-			<Footer />
 		</>
 	);
 };

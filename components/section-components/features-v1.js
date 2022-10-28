@@ -22,12 +22,12 @@ class FeaturesV1 extends Component {
 					<div className="col-lg-4 col-sm-6 col-12">
 						<div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
 							<div className="ltn__feature-icon">
-								<img src="/assets/img/icons/icon-img/21.png" alt="#" />
+								<img src="/assets/img/icons/icon-img/21.png" alt="Renovations and Refurbishment" />
 							</div>
 							<div className="ltn__feature-info">
-								<h3><Link href="/service-details">Buy a home</Link></h3>
-								<p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-								<Link href="/service-details"><a className="ltn__service-btn">Find A Home <i className="flaticon-right-arrow" /></a></Link>
+								<h3><a href="/services/refurbishments">Refurbishments</a></h3>
+								<p>All aspects covered, full design, gutting, structural, studwork & plastering, gas, plumbing, electrics, redecorating.</p>
+								<a href="/services/refurbishments"><a className="ltn__service-btn">Refurbishments&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
 					</div>
@@ -37,9 +37,9 @@ class FeaturesV1 extends Component {
 								<img src="/assets/img/icons/icon-img/22.png" alt="#" />
 							</div>
 							<div className="ltn__feature-info">
-								<h3><Link href="/service-details">Rent a home</Link></h3>
-								<p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-								<Link href="/service-details"><a className="ltn__service-btn" >Find A Home <i className="flaticon-right-arrow" /></a></Link>
+								<h3><a href="/services/plumbing">Plumbing</a></h3>
+								<p>Leaks, fittings, clearing blockages, burst pipework, plumbing valves, shower booster pumps, cylinders and immersion.</p>
+								<a href="/services/plumbing"><a className="ltn__service-btn">Plumbing&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
 					</div>
@@ -49,9 +49,9 @@ class FeaturesV1 extends Component {
 								<img src="/assets/img/icons/icon-img/23.png" alt="#" />
 							</div>
 							<div className="ltn__feature-info">
-								<h3><Link href="/service-details">Sell a home</Link></h3>
-								<p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-								<Link href="/service-details"><a className="ltn__service-btn">Find A Home <i className="flaticon-right-arrow" /></a></Link>
+								<h3><a href="/services/gas-works">Gas Works</a></h3>
+								<p>Boiler and central heating; repair/replacement, flush & service. Gas leaks. Landlord annual gas certificate, gas hobs.</p>
+								<a href="/services/gas-works"><a className="ltn__service-btn">Gas Works&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
 					</div>
@@ -61,9 +61,9 @@ class FeaturesV1 extends Component {
 								<img src="/assets/img/icons/icon-img/21.png" alt="#" />
 							</div>
 							<div className="ltn__feature-info">
-								<h3><Link href="/service-details">Buy a home</Link></h3>
-								<p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-								<Link href="/service-details"><a className="ltn__service-btn">Find A Home <i className="flaticon-right-arrow" /></a></Link>
+								<h3><a href="/services/general-building">General Building</a></h3>
+								<p>Tiling: ceramic, porcelain, and natural stone. Flooring, decorating, carpentry, structural, studwork and plastering.</p>
+								<a href="/services/general-building"><a className="ltn__service-btn">General&nbsp;Building&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
 					</div>
@@ -73,9 +73,9 @@ class FeaturesV1 extends Component {
 								<img src="/assets/img/icons/icon-img/21.png" alt="#" />
 							</div>
 							<div className="ltn__feature-info">
-								<h3><Link href="/service-details">Buy a home</Link></h3>
-								<p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-								<Link href="/service-details"><a className="ltn__service-btn">Find A Home <i className="flaticon-right-arrow" /></a></Link>
+								<h3><a href="/services/handyman">Handyman</a></h3>
+								<p>Door and window handles, stairs and banisters, guttering and fascia's, shelving and brackets, clearance.</p>
+								<a href="/services/handyman"><a className="ltn__service-btn">Handyman&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
 					</div>
@@ -85,9 +85,9 @@ class FeaturesV1 extends Component {
 								<img src="/assets/img/icons/icon-img/21.png" alt="#" />
 							</div>
 							<div className="ltn__feature-info">
-								<h3><Link href="/service-details">Buy a home</Link></h3>
-								<p>over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.</p>
-								<Link href="/service-details"><a className="ltn__service-btn">Find A Home <i className="flaticon-right-arrow" /></a></Link>
+								<h3><a href="/services/exterior-works">Exterior Works</a></h3>
+								<p>Exterior block and slab paving, sheds, fencing, artificial turf, brickwork and repainting, garden clearance.</p>
+								<a href="/services/exterior-works"><a className="ltn__service-btn">Exterior Works&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
 					</div>
