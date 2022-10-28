@@ -61,14 +61,6 @@ class Footer_v1 extends Component {
 											</li>
 											<li>
 												<div className="footer-address-icon">
-													<i className="icon-call" />
-												</div>
-												<div className="footer-address-info">
-													<p><a href="tel:07786400595">07786400595</a></p>
-												</div>
-											</li>
-											<li>
-												<div className="footer-address-icon">
 													<i className="icon-mail" />
 												</div>
 												<div className="footer-address-info">
@@ -111,37 +103,6 @@ class Footer_v1 extends Component {
 									</div>
 								</div>
 							</div>
-							{/* <div className="col-xl-2 col-md-6 col-sm-6 col-12">
-								<div className="footer-widget footer-menu-widget clearfix">
-									<h4 className="footer-title">Customer Care</h4>
-									<div className="footer-menu go-top">
-										<ul>
-											<li><Link href="/login">Login</Link></li>
-											<li><Link href="/my-account">My account</Link></li>
-											<li><Link href="/wishlist">Wish List</Link></li>
-											<li><Link href="/add-listing">Add listing</Link></li>
-											<li><Link href="/faq">FAQ</Link></li>
-											<li><Link href="/contact">Contact us</Link></li>
-										</ul>
-									</div>
-								</div>
-							</div> */}
-							{/* <div className="col-xl-3 col-md-6 col-sm-12 col-12">
-								<div className="footer-widget footer-newsletter-widget">
-									<h4 className="footer-title">Newsletter</h4>
-									<p>Subscribe to our weekly Newsletter and receive updates via email.</p>
-									<div className="footer-newsletter">
-										<form action="#">
-											<input type="email" name="email" placeholder="Email*" />
-											<div className="btn-wrapper">
-												<button className="theme-btn-1 btn" type="submit"><i className="fas fa-location-arrow" /></button>
-											</div>
-										</form>
-									</div>
-									<h5 className="mt-30">We Accept</h5>
-									<img src={publicUrl + "assets/img/icons/payment-4.png"} alt="Payment Image" />
-								</div>
-							</div> */}
 						</div>
 					</div>
 				</div>

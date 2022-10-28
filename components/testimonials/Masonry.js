@@ -164,8 +164,8 @@ const testimonials = [
 	{
 		text: "Excellent work over at the flat, new bathroom looks amazing!",
 		text2: "",
-		name: "Richmond Upon Thames",
-		location: "Mr I Oddie"
+		name: "Mr I Oddie",
+		location: "Richmond Upon Thames"
 	},
 	{
 		text: "For the last decade or so if I have any problems in any of my properties I simply call Vale and they have always got the job done on time and within budget. I wish everything worked like this!",

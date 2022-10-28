@@ -103,7 +103,10 @@ class NavbarV2 extends Component {
 													<li><a href="/testimonials">Testimonials</a></li>
 													<li><a href="/contact">Contact</a></li>
 													<li className="special-link">
-														<a href="tel:02036673833">Call: 02036673833</a>
+														<a href="mailto:admin@valeinfo.co.uk"><i className="icon-mail" style={{ position: 'relative', top: '3px' }} /> admin@valeinfo.co.uk</a>
+													</li>
+													<li className="special-link">
+														<a href="tel:02036673833"><i className="icon-call" style={{ position: 'relative', top: '2px' }} /> 02036673833</a>
 													</li>
 												</ul>
 											</div>
@@ -192,8 +195,11 @@ class NavbarV2 extends Component {
 							</li> */}
 								<li><a href="/testimonials">Testimonials</a></li>
 								<li><a href="/contact">Contact</a></li>
-								<li className="special-link">
-									<a href="tel:02036673833">Call Us On: 02036673833</a>
+								<li className="special-link m-0 my-3">
+									<a href="mailto:admin@valeinfo.co.uk"><i className="icon-mail" style={{ position: 'relative', top: '3px' }} /> admin@valeinfo.co.uk</a>
+								</li>
+								<li className="special-link m-0">
+									<a href="tel:02036673833"><i className="icon-call" style={{ position: 'relative', top: '2px' }} /> 02036673833</a>
 								</li>
 							</ul>
 						</div>

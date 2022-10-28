@@ -2,7 +2,7 @@ import React from 'react';
 
 const AreasWeCover = () => {
 	return (
-		<div className='container pb-5'>
+		<div className='container pb-5 mt-5 pt-120'>
 			<h2>Areas We Cover</h2>
 			<h6>Based in Kingston Upon Thames we serve London and Surrey, more specifically:</h6>
 			<p>Kingston Upon Thames, Ham, Surbiton, New Malden, Hampton Wick, Teddington, Twickenham, Richmond Upon Thames, Chessington, Barnes

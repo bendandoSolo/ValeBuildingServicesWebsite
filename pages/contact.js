@@ -11,8 +11,9 @@ const ContactPage = () => {
 		<>
 			<PageHeader headertitle="Contact Us" subheader="Contact" />
 			<ContactInfo />
-			<AreasWeCover />
 			<ContactForm />
+			<AreasWeCover />
+
 			<Map />
 		</>
 	);
