@@ -37,7 +37,7 @@ class Footer_v1 extends Component {
 								<div className="footer-widget footer-about-widget">
 									<div className="footer-logo">
 										<div className="site-logo">
-											<img src='/valeImages/logos/logo.png' alt="Logo" />
+											<img src='/valeImages/logos/logo-no-bg.png' alt="Vale Building Services Logo" />
 										</div>
 									</div>
 									<p>Professional and efficient property maintenance and refurbishment at affordable prices.</p>

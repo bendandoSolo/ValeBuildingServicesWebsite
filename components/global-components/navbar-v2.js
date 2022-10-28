@@ -62,7 +62,7 @@ class NavbarV2 extends Component {
 								<div className="col">
 									<div className="site-logo-wrap">
 										<div className="site-logo go-top">
-											<a href="/"><img src={publicUrl + "assets/img/logo.png"} alt="Logo" /></a>
+											<a href="/"><img className="navbar-logo" src='/valeImages/logos/logo-no-bg.png' alt="Vale Building Services Logo" /></a>
 										</div>
 										<div className="get-support clearfix d-none">
 											<div className="get-support-icon">
@@ -131,7 +131,7 @@ class NavbarV2 extends Component {
 					<div className="ltn__utilize-menu-inner ltn__scrollbar">
 						<div className="ltn__utilize-menu-head">
 							<div className="site-logo">
-								<a href="/"><img src={publicUrl + "assets/img/logo.png"} alt="Logo" /></a>
+								<a href="/"><img className="navbar-logo" src='/valeImages/logos/logo-no-bg.png' alt="Vale Building Services Logo" /></a>
 							</div>
 							<button className="ltn__utilize-close">×</button>
 						</div>
