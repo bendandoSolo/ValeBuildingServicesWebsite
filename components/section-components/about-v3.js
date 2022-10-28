@@ -4,7 +4,7 @@ import Link from 'next/link';
 class AboutV3 extends Component {
 
 	render() {
-		return <div className="ltn__about-us-area pt-115 pb-100 ">
+		return <div id='about' className="ltn__about-us-area pt-115 pb-100 ">
 			<div className="container">
 				<div className="section-title-area ltn__section-title-2--- mb-30">
 					<h6 className="section-subtitle section-subtitle-2--- ltn__secondary-color">About Us</h6>

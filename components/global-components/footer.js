@@ -33,7 +33,7 @@ class Footer_v1 extends Component {
 				<div className="footer-top-area  section-bg-2 plr--5">
 					<div className="container-fluid">
 						<div className="row">
-							<div className="col-xl-4 col-md-6 col-sm-6 col-12">
+							<div className="col-xl-4 col-md-4 col-sm-6 col-12">
 								<div className="footer-widget footer-about-widget">
 									<div className="footer-logo">
 										<div className="site-logo">
@@ -74,13 +74,13 @@ class Footer_v1 extends Component {
 									</div> */}
 								</div>
 							</div>
-							<div className="col-xl-4 col-md-6 col-sm-6 col-12">
+							<div className="col-xl-4 col-md-4 col-sm-6 col-12">
 								<div className="footer-widget footer-menu-widget clearfix">
 									<h4 className="footer-title">Company</h4>
 									<div className="footer-menu go-top">
 										<ul>
-											<li><Link href="#about">About</Link></li>
-											<li><Link href="#services">Services</Link></li>
+											<li><Link href="/#about">About</Link></li>
+											<li><Link href="/#services">Services</Link></li>
 											<li><Link href="/testimonials">Testimonials</Link></li>
 											<li><Link href="/contact">Contact</Link></li>
 											<li><Link href="/privacy-policy">Privacy Policy</Link></li>
@@ -88,7 +88,7 @@ class Footer_v1 extends Component {
 									</div>
 								</div>
 							</div>
-							<div className="col-xl-4 col-md-6 col-sm-6 col-12">
+							<div className="col-xl-4 col-md-4 col-sm-6 col-12">
 								<div className="footer-widget footer-menu-widget clearfix">
 									<h4 className="footer-title">Services</h4>
 									<div className="footer-menu go-top">

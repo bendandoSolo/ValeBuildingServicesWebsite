@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
-//import { a } from 'react-router-dom';
 //import Social from '../section-components/social';
-//import a from 'next/a';
 
 class NavbarV2 extends Component {
-
 	render() {
-		let publicUrl = ''; //process.env.PUBLIC_URL + '/'
-		let CustomClass = ''; //this.props.CustomClass ? this.props.CustomClass : ''
 		return (
 			<div>
-				<header className={"ltn__header-area ltn__header-5 ltn__header-logo-and-mobile-menu-in-mobile ltn__header-logo-and-mobile-menu ltn__header-transparent--- gradient-color-4--- " + CustomClass}>
+				<header className={"ltn__header-area ltn__header-5 ltn__header-logo-and-mobile-menu-in-mobile ltn__header-logo-and-mobile-menu ltn__header-transparent--- gradient-color-4--- "}>
 					{/* ltn__header-top-area start */}
 					<div className="ltn__header-top-area d-none">
 						<div className="container">
@@ -81,7 +76,7 @@ class NavbarV2 extends Component {
 											<div className="ltn__main-menu">
 												<ul>
 													<li><a href="/">Home</a></li>
-													<li className="menu-icon"><a href="/">Services</a>
+													<li className="menu-icon"><a href="/#services">Services</a>
 														<ul>
 															<li><a href="/services/refurbishments">Refurbishments</a></li>
 															<li><a href="/services/plumbing">Plumbing</a></li>
@@ -141,7 +136,7 @@ class NavbarV2 extends Component {
 						<div className="ltn__utilize-menu">
 							<ul>
 								<li><a href="/">Home</a></li>
-								<li><a href="/">Services</a>
+								<li><a href="/#services">Services</a>
 									<ul className="sub-menu">
 										<li><a href="/services/refurbishments">Refurbishments</a></li>
 										<li><a href="/services/plumbing">Plumbing</a></li>

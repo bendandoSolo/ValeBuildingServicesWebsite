@@ -3,12 +3,7 @@ import Link from 'next/link';
 class FeaturesV1 extends Component {
 
 	render() {
-
-		let publicUrl = process.env.PUBLIC_URL + '/'
-
-		let customClass = this.props.customClass ? this.props.customClass : ''
-
-		return <div className={customClass} >
+		return <div id='services' >
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-12">
