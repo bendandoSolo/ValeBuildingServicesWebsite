@@ -22,7 +22,9 @@ class FeaturesV1 extends Component {
 					<div className="col-lg-4 col-sm-6 col-12">
 						<div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
 							<div className="ltn__feature-icon">
-								<img src="/assets/img/icons/icon-img/21.png" alt="Renovations and Refurbishment" />
+								{/* <i class="fa-sharp fa-solid fa-building"></i> */}
+								<i className="flaticon-apartment" />
+								{/* <img src="/assets/img/icons/icon-img/21.png" alt="Renovations and Refurbishment" /> */}
 							</div>
 							<div className="ltn__feature-info">
 								<h3><a href="/services/refurbishments">Refurbishments</a></h3>
@@ -34,7 +36,10 @@ class FeaturesV1 extends Component {
 					<div className="col-lg-4 col-sm-6 col-12">
 						<div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 active">
 							<div className="ltn__feature-icon">
-								<img src="/assets/img/icons/icon-img/22.png" alt="#" />
+								<i className="flaticon-toilet" />
+								{/* <i class="fa-solid fa-toilet"></i> */}
+								{/* <img src="/assets/img/icons/icon-img/22.png" alt="#" /> */}
+
 							</div>
 							<div className="ltn__feature-info">
 								<h3><a href="/services/plumbing">Plumbing</a></h3>
@@ -46,7 +51,8 @@ class FeaturesV1 extends Component {
 					<div className="col-lg-4 col-sm-6 col-12">
 						<div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
 							<div className="ltn__feature-icon">
-								<img src="/assets/img/icons/icon-img/23.png" alt="#" />
+								<i className="flaticon-secure-shield" />
+								{/* <img src="/assets/img/icons/icon-img/23.png" alt="#" /> */}
 							</div>
 							<div className="ltn__feature-info">
 								<h3><a href="/services/gas-works">Gas Works</a></h3>
@@ -58,7 +64,9 @@ class FeaturesV1 extends Component {
 					<div className="col-lg-4 col-sm-6 col-12">
 						<div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
 							<div className="ltn__feature-icon">
-								<img src="/assets/img/icons/icon-img/21.png" alt="#" />
+								<i className="flaticon-home-1" />
+								{/* <i className="flaticon-secure" /> */}
+								{/* <img src="/assets/img/icons/icon-img/21.png" alt="#" /> */}
 							</div>
 							<div className="ltn__feature-info">
 								<h3><a href="/services/general-building">General Building</a></h3>
@@ -70,7 +78,8 @@ class FeaturesV1 extends Component {
 					<div className="col-lg-4 col-sm-6 col-12">
 						<div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
 							<div className="ltn__feature-icon">
-								<img src="/assets/img/icons/icon-img/21.png" alt="#" />
+								<i className="flaticon-home-2" />
+								{/* </img src="/assets/img/icons/icon-img/21.png" alt="#" /> */}
 							</div>
 							<div className="ltn__feature-info">
 								<h3><a href="/services/handyman">Handyman</a></h3>
@@ -82,7 +91,8 @@ class FeaturesV1 extends Component {
 					<div className="col-lg-4 col-sm-6 col-12">
 						<div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
 							<div className="ltn__feature-icon">
-								<img src="/assets/img/icons/icon-img/21.png" alt="#" />
+								<i className="flaticon-building" />
+								{/* <img src="/assets/img/icons/icon-img/21.png" alt="#" /> */}
 							</div>
 							<div className="ltn__feature-info">
 								<h3><a href="/services/exterior-works">Exterior Works</a></h3>
