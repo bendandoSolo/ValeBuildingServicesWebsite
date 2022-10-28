@@ -46,3 +46,14 @@
 	padding: 10px !important;
 	padding-bottom: 12px !important;
 }
+
+.bendando-link a {
+	font-weight: 500;
+	color: #ffffff !important;
+	transition: 1.5s;
+ }
+ 
+ .bendando-link:hover a {
+	text-decoration: underline;
+	color: #FF5A3C !important;
+ }

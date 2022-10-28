@@ -105,7 +105,11 @@ class Footer_v1 extends Component {
 							</div>
 						</div>
 					</div>
+					<div>
+						<p className='text-center bendando-link ' style={{ margin: '16px 0 0 0', padding: 0 }}><a href="https://bendando.com/" target="_blank">Website by Bendando</a></p>
+					</div>
 				</div>
+
 				{/* <Copyright /> */}
 			</footer>
 		)
