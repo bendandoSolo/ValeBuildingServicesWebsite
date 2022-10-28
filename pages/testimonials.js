@@ -1,7 +1,7 @@
 import React from 'react';
 
 import PageHeader from '../components/global-components/page-header';
-import TestimonialsMasonry from '../components/testimonials/testimonialsMasonry';
+import TestimonialsMasonry from '../components/testimonials/TestimonialsMasonry';
 
 
 const TestimonialsPage = () => {
