@@ -11,26 +11,25 @@ class ContactInfo extends Component {
 					<div className="col-lg-4">
 						<div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
 							<div className="ltn__contact-address-icon">
-								<img src={publicUrl + "assets/img/icons/10.png"} alt="Icon Image" />
+								<img src="assets/img/icons/10-blue.png" alt="Email Icon" />
 							</div>
 							<h3>Email Address</h3>
-							<p>admin@valeinfo.co.uk<br />&nbsp;</p>
-							<p></p>
+							<p><a href="mailto:admin@valeinfo.co.uk?subject=enquiry">admin@valeinfo.co.uk</a><br />&nbsp;</p>
 						</div>
 					</div>
 					<div className="col-lg-4">
 						<div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
 							<div className="ltn__contact-address-icon">
-								<img src={publicUrl + "assets/img/icons/11.png"} alt="Icon Image" />
+								<img src="assets/img/icons/11-blue.png" alt="Phone Icon" />
 							</div>
 							<h3>Phone Number</h3>
-							<p>02036673833<br /> 07786400595</p>
+							<p><a href="tel:02036673833">02036673833</a><br /> <a href="tel:07786400595">07786400595</a></p>
 						</div>
 					</div>
 					<div className="col-lg-4">
 						<div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
 							<div className="ltn__contact-address-icon">
-								<img src={publicUrl + "assets/img/icons/12.png"} alt="Icon Image" />
+								<img src="assets/img/icons/12-blue.png" alt="Address Icon" />
 							</div>
 							<h3>Office Address</h3>
 							<p>Kingston Upon Thames<br />
