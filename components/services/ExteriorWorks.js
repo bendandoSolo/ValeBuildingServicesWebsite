@@ -8,19 +8,19 @@ const ExteriorWorksService = () => {
 				<div className="col-lg-8">
 					<div className="ltn__page-details-inner ltn__service-details-inner">
 						<div className="ltn__blog-img">
-							<img src="/valeImages/services/Building_Exterior.jpg" alt="Building Exterior" />
+							<img src="/valeImages/services/GeneralBuilding/General building top left.jpg" alt="Building Exterior" />
 						</div>
 						<div className='pb-4'>
 							<p> <span className="ltn__first-letter">F</span>rom converting a disused space into a home office, knocking through the kitchen wall to make an open plan space or replacing that perished garden shed, we can assist with a wide range of general and exterior works.</p>
 						</div>
-						{/* <div className="row">
+						<div className="row">
 							<div className="col-lg-6">
-								<img src="/valeImages/services/Building_Exterior.jpg" alt="Building Exterior" />
+								<img src="/valeImages/services/GeneralBuilding/General building bottom left.jpg" alt="Building Exterior" />
 					</div>
 					<div className="col-lg-6">
-						<img src="/valeImages/services/Kitchen_Refurbishment_2.jpg" alt="Kitchen Refurbishment" />
+						<img src="/valeImages/services/GeneralBuilding/General building bottom middle.jpg" alt="Kitchen Refurbishment" />
 					</div>
-				</div> */}
+				</div>
 						<strong>
 							<p className='pt-3'>General building works we offer include:</p>
 							<ul>
@@ -60,9 +60,9 @@ const ExteriorWorksService = () => {
 					</div>
 					</div> */}
 						{/* Banner Widget */}
-						{/* <div className="widget ltn__banner-widget go-top">
-							<img src="/valeImages/services/Bathroom_Refurbishment.jpg" alt="Bathroom Refurbishment" />
-						</div> */}
+						<div className="widget ltn__banner-widget go-top">
+							<img src="/valeImages/services/GeneralBuilding/General building bottom right.JPG" alt="Bathroom Refurbishment" />
+						</div> 
 					</aside>
 				</div>
 			</div>

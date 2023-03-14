@@ -9,18 +9,18 @@ class HandyManService extends Component {
 					<div className="col-lg-8">
 						<div className="ltn__page-details-inner ltn__service-details-inner">
 							<div className="ltn__blog-img">
-								<img src="/valeImages/services/Kitchen_Refurbishment.jpg" alt="Kitchen Refurbishment" />
+								<img src="/valeImages/services/Refurbishments/Refurbishment top left.webp" alt="Kitchen Refurbishment" />
 							</div>
 							<p> <span className="ltn__first-letter">P</span>roviding a clean and efficient service, whether it’s redecorating your whole property, a ceiling that’s been damaged following a leak or a refresh of a rental property in-between tenancies, we can assist in delivering the professional finish required.
 							</p>
 							<p>Working with a range of surfaces such as: plaster, wood and masonry and with a variety of treatments/finishes, we can assist in restoring and redecorating your property.</p>
 							<div className="row">
 								<div className="col-lg-6">
-									<img src="/valeImages/services/Refurbished_Living_Room.jpg" alt="Refurbished Living Room" />
+									<img src="/valeImages/services/Refurbishments/Refurbishment bottom right.jpg" alt="Refurbished Living Room" />
 									{/* <label>Image caption here.</label> */}
 								</div>
 								<div className="col-lg-6">
-									<img src="/valeImages/services/Kitchen_Refurbishment_2.jpg" alt="Kitchen Refurbishment" />
+									<img src="/valeImages/services/Refurbishments/Refurbishment bottom middle.jpg" alt="Kitchen Refurbishment" />
 								</div>
 							</div>
 							<strong>
@@ -55,7 +55,7 @@ class HandyManService extends Component {
 								</div> */}
 							{/* Banner Widget */}
 							<div className="widget ltn__banner-widget go-top">
-								<img src="/valeImages/services/Bathroom_Refurbishment.jpg" alt="Bathroom Refurbishment" />
+								<img src="/valeImages/services/Refurbishments/Refurbishment bottom left.jpg" alt="Bathroom Refurbishment" />
 							</div>
 						</aside>
 					</div>

@@ -10,7 +10,7 @@ export const PlumbingService = () => {
 					<div className="col-lg-8">
 						<div className="ltn__page-details-inner ltn__service-details-inner">
 							<div className="ltn__blog-img">
-								<img src="/valeImages/services/Bathroom_Refurbishment.jpg" alt="Bathroom Refurbishment" />
+								<img src="/valeImages/services/Plumbing/Plumbing top left.webp" alt="Bathroom Refurbishment" />
 							</div>
 							<div>
 								<p> <span className="ltn__first-letter">O</span>perating over the last 30 years in and around London and Surrey there are few plumbing jobs we haven’t seen. We have a team of highly skilled plumbers who are able to tackle any job, big or small. We are able to offer a full range of plumbing services including:</p>
@@ -39,11 +39,11 @@ export const PlumbingService = () => {
 							</strong>
 							<div className="row">
 								<div className="col-lg-6">
-									<img src="/valeImages/services/Black-And-White-Bathroom.jpg" alt="Black and White Bathroom" />
+									<img src="/valeImages/services/Plumbing/Plumbing bottom left.jpg" alt="Black and White Bathroom" />
 									{/* <label>Image caption here.</label> */}
 								</div>
 								<div className="col-lg-6">
-									<img src="/valeImages/services/Plumbing-Shower.jpg" alt="Black and White Shower" />
+									<img src="/valeImages/services/Plumbing/Plumbing bottom middle.jpg" alt="Black and White Shower" />
 								</div>
 							</div>
 						</div>
@@ -66,7 +66,7 @@ export const PlumbingService = () => {
 								</div> */}
 							{/* Banner Widget */}
 							<div className="widget ltn__banner-widget go-top">
-								<img src="/valeImages/services/Plumbing-Sink-And-Shower.jpg" alt="Plumbing Sink And Shower" />
+								<img src="/valeImages/services/Plumbing/Plumbing bottom right.jpg" alt="Plumbing Sink And Shower" />
 							</div>
 						</aside>
 					</div>

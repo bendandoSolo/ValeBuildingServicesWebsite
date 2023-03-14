@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ServicesSideMenu from '../widgets/ServicesSideMenu';
 
-class GeneralBuildingService extends Component {
+class KitchenAndBathroom extends Component {
 	render() {
 		return <div className="ltn__page-details-area ltn__service-details-area mb-105">
 			<div className="container">
@@ -9,7 +9,7 @@ class GeneralBuildingService extends Component {
 					<div className="col-lg-8">
 						<div className="ltn__page-details-inner ltn__service-details-inner">
 							<div className="ltn__blog-img">
-								<img src="/valeImages/homeCarousel/refurbishment.jpg" alt="Refurbishment" />
+								<img src="/valeImages/services/Kitchen/Kitchen Top left.jpg" alt="Refurbishment" />
 							</div>
 							<div className='row'>
 								<p> <span className="ltn__first-letter">W</span>hether you have a specific style in mind, or want to discuss the most suitable design & material choices for your project, we can assist with access to trade discounts from a wide range of quality, well known brands/suppliers.
@@ -17,11 +17,11 @@ class GeneralBuildingService extends Component {
 							</div>
 							<div className="row">
 								<div className="col-lg-6">
-									<img src="/valeImages/services/Kitchen_Cabinets.jpg" alt="Kitchen Cabinets" />
+									<img src="/valeImages/services/Kitchen/Kitchen bottom left.JPG" alt="Kitchen Cabinets" />
 									{/* <label>Image caption here.</label> */}
 								</div>
 								<div className="col-lg-6">
-									<img src="/valeImages/services/Building_Works_Stairs.jpg" alt="Building Works Stairs" />
+									<img src="/valeImages/services/Kitchen/Kitchen bottom middle.jpg" alt="Building Works Stairs" />
 								</div>
 							</div>
 							<strong>
@@ -57,7 +57,7 @@ class GeneralBuildingService extends Component {
 								</div> */}
 							{/* Banner Widget */}
 							<div className="widget ltn__banner-widget go-top">
-								<img src="/valeImages/services/Room_And_Stairs_Refurbishment.jpg" alt="Room And Stairs Refurbishment" />
+								<img src="/valeImages/services/Kitchen/Kitchen bottom right.jpg" alt="Room And Stairs Refurbishment" />
 							</div>
 						</aside>
 					</div>
@@ -67,4 +67,4 @@ class GeneralBuildingService extends Component {
 	}
 }
 
-export default GeneralBuildingService
+export default KitchenAndBathroom

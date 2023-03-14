@@ -9,7 +9,7 @@ class GasWorksService extends Component {
 					<div className="col-lg-8">
 						<div className="ltn__page-details-inner ltn__service-details-inner">
 							<div className="ltn__blog-img">
-								<img src="/valeImages/services/Vaillant_Boiler.jpg" alt="Vaillant Boiler" />
+								<img src="/valeImages/services/Gas/Gas main left.jpg" alt="Vaillant Boiler" />
 							</div>
 							<p> <span className="ltn__first-letter">A</span>t Vale Building Services all our gas engineers are Approved Advanced Vaillant Installers, which means that any boiler we install for you comes with extended free manufacturer guarantees up to 10 years. 
 							</p>
