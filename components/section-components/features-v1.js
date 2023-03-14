@@ -24,7 +24,7 @@ class FeaturesV1 extends Component {
 							<div className="ltn__feature-info">
 								<h3><a href="/services/refurbishments">Refurbishments</a></h3>
 								<p>All aspects covered, full design, gutting, structural, studwork & plastering, gas, plumbing, electrics, redecorating.</p>
-								<a href="/services/refurbishments"><a className="ltn__service-btn">Refurbishments&nbsp;<i className="flaticon-right-arrow" /></a></a>
+								<a href="/services/refurbishments" className="ltn__service-btn">Refurbishments&nbsp;<i className="flaticon-right-arrow" /></a>
 							</div>
 						</div>
 					</div>
@@ -39,7 +39,7 @@ class FeaturesV1 extends Component {
 							<div className="ltn__feature-info">
 								<h3><a href="/services/plumbing">Plumbing</a></h3>
 								<p>Leaks, fittings, burst pipework, plumbing valves, shower booster pumps, cylinders and immersion.</p>
-								<a href="/services/plumbing"><a className="ltn__service-btn">Plumbing&nbsp;<i className="flaticon-right-arrow" /></a></a>
+								<a href="/services/plumbing" className="ltn__service-btn">Plumbing&nbsp;<i className="flaticon-right-arrow" /></a>
 							</div>
 						</div>
 					</div>
@@ -52,7 +52,7 @@ class FeaturesV1 extends Component {
 							<div className="ltn__feature-info">
 								<h3><a href="/services/gas-and-boiler-works">Gas & Boilers Works</a></h3>
 								<p>Boiler and central heating; repair/replacement, flush & service. Gas leaks. Landlord annual gas certificate, gas hobs.</p>
-								<a href="/services/gas-and-boiler-works"><a className="ltn__service-btn">Gas & Boilers Works&nbsp;<i className="flaticon-right-arrow" /></a></a>
+								<a href="/services/gas-and-boiler-works" className="ltn__service-btn">Gas & Boilers Works&nbsp;<i className="flaticon-right-arrow" /></a>
 							</div>
 						</div>
 					</div>
@@ -66,7 +66,7 @@ class FeaturesV1 extends Component {
 							<div className="ltn__feature-info">
 								<h3><a href="/services/kitchen-and-bathroom-fitting">Kitchen & Bathroom Fitting</a></h3>
 								<p>From meeting to discuss design specifications, to full removal and refitting.</p>
-								<a href="/services/kitchen-and-bathroom-fitting"><a className="ltn__service-btn">Kitchen & Bathroom Fitting	&nbsp;<i className="flaticon-right-arrow" /></a></a>
+								<a href="/services/kitchen-and-bathroom-fitting" className="ltn__service-btn">Kitchen & Bathroom Fitting&nbsp;<i className="flaticon-right-arrow" /></a>
 							</div>
 						</div>
 					</div>
@@ -79,7 +79,7 @@ class FeaturesV1 extends Component {
 							<div className="ltn__feature-info">
 								<h3><a href="/services/redecoration-and-handyman">Redecoration & Handyman</a></h3>
 								<p>Working on a wide variety of surfaces, full plastering/restoration/finishing works if required.</p>
-								<a href="/services/redecoration-and-handyman"><a className="ltn__service-btn">Redecoration & Handyman&nbsp;<i className="flaticon-right-arrow" /></a></a>
+								<a href="/services/redecoration-and-handyman" className="ltn__service-btn">Redecoration & Handyman&nbsp;<i className="flaticon-right-arrow" /></a>
 							</div>
 						</div>
 					</div>
@@ -92,7 +92,7 @@ class FeaturesV1 extends Component {
 							<div className="ltn__feature-info">
 								<h3><a href="/services/general-building-and-exterior-works">General Building & Exterior Works</a></h3>
 								<p>Tiling, wood/laminate/vinyl flooring, structural/studwork. Exterior block and slab paving, garden works.</p>
-								<a href="/services/general-building-and-exterior-works"><a className="ltn__service-btn">General Building & Exterior Works&nbsp;<i className="flaticon-right-arrow" /></a></a>
+								<a href="/services/general-building-and-exterior-works" className="ltn__service-btn">General Building & Exterior Works&nbsp;<i className="flaticon-right-arrow" /></a>
 							</div>
 						</div>
 					</div>

@@ -29,7 +29,8 @@ const BannerV2 = () => {
 										</div>
 									</div>
 									<div className="slide-item-img">
-										<img src="/valeImages/homeCarousel/modern_kitchen.jpg" alt="modern kitchen" />
+										<img src="/valeImages/homeCarousel/new/Spacious Modern Kitchen.webp" alt="Spacious Modern Kitchen" />
+										{/* <img src="/valeImages/homeCarousel/modern_kitchen.jpg" alt="modern kitchen" /> */}
 									</div>
 								</div>
 							</div>
@@ -55,7 +56,8 @@ const BannerV2 = () => {
 										</div>
 									</div>
 									<div className="slide-item-img">
-										<img src="/valeImages/homeCarousel/rustic_kitchen.jpg" alt="modern kitchen 2" />
+										<img src="/valeImages/homeCarousel/new/Exposed Brick Kitchen.jpg" alt="Exposed Brick Kitchen" />
+										{/* <img src="/valeImages/homeCarousel/rustic_kitchen.jpg" alt="modern kitchen 2" /> */}
 									</div>
 								</div>
 							</div>
@@ -82,7 +84,8 @@ const BannerV2 = () => {
 										</div>
 									</div>
 									<div className="slide-item-img">
-										<img src="/valeImages/homeCarousel/bathroom.jpg" alt="bathroom" />
+										<img src="/valeImages/homeCarousel/new/Bright Modern Bathroom.webp" alt="Bright Modern Bathroom" />
+										{/* <img src="/valeImages/homeCarousel/bathroom.jpg" alt="bathroom" /> */}
 									</div>
 								</div>
 							</div>
@@ -108,7 +111,8 @@ const BannerV2 = () => {
 										</div>
 									</div>
 									<div className="slide-item-img">
-										<img src="/valeImages/homeCarousel/refurbishment.jpg" alt="rustic kitchen" />
+										<img src="/valeImages/homeCarousel/new/Modern Red And Black Kitchen.JPG" alt="Modern Red And Black Kitchen" />
+										{/* <img src="/valeImages/homeCarousel/refurbishment.jpg" alt="rustic kitchen" /> */}
 									</div>
 								</div>
 							</div>
@@ -133,7 +137,22 @@ const BannerV2 = () => {
 			<div className="ltn__slider-11-img-slide-arrow">
 				<div className="ltn__slider-11-img-slide-arrow-inner">
 					<div className="ltn__slider-11-img-slide-arrow-active">
+					<div className="image-slide-item">
+							<img src="/valeImages/homeCarousel/new/Spacious Modern Kitchen.webp" alt="Spacious Modern Kitchen Thumbnail" />
+						</div>
 						<div className="image-slide-item">
+							<img src="/valeImages/homeCarousel/new/Exposed Brick Kitchen.jpg" alt="Exposed Brick Kitchen Thumbnail" />
+						</div>
+						<div className="image-slide-item">
+							<img src="/valeImages/homeCarousel/new/Bright Modern Bathroom.webp" alt="Bright Modern Bathroom Thumbnail" />
+						</div>
+						<div className="image-slide-item">
+							<img src="/valeImages/homeCarousel/new/Modern Red And Black Kitchen.JPG" alt="Modern Red And Black Kitchen Thumbnail" />
+						</div>
+						{/* <div className="image-slide-item">
+							<img src="/valeImages/homeCarousel/new/Front page 5.jpg" alt="Refurbishment Thumbnail" />
+						</div> */}
+						{/* <div className="image-slide-item">
 							<img src="/valeImages/homeCarousel/modern_kitchen_2.jpg" alt="Modern Kitchen Thumbnail" />
 						</div>
 						<div className="image-slide-item">
@@ -144,7 +163,7 @@ const BannerV2 = () => {
 						</div>
 						<div className="image-slide-item">
 							<img src="/valeImages/homeCarousel/refurbishment_thumbnail.jpg" alt="Refurbishment Thumbnail" />
-						</div>
+						</div> */}
 					</div>
 					{/* slider-4-slide-item-count */}
 					<div className="ltn__slider-11-slide-item-count">
