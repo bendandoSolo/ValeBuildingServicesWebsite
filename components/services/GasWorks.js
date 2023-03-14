@@ -11,11 +11,11 @@ class GasWorksService extends Component {
 							<div className="ltn__blog-img">
 								<img src="/valeImages/services/Vaillant_Boiler.jpg" alt="Vaillant Boiler" />
 							</div>
-							<p> <span className="ltn__first-letter">A</span>t Vale Building Services we all our gas engineers are Approved Advanced Vaillant
-								Engineers. We are also Gas Safe Registered and are able to carry out all aspects of gas work. We can install or replace Boilers and central heating systems.
-								We can also carry out Landlord Gas Safety Checks and issue Landlord Gas Safety Certificates. We can also carry out Gas Appliance Servicing and Gas Appliance Repairs.
+							<p> <span className="ltn__first-letter">A</span>t Vale Building Services all our gas engineers are Approved Advanced Vaillant Installers, which means that any boiler we install for you comes with extended free manufacturer guarantees up to 10 years. 
 							</p>
-
+							<p>
+								We carry out all aspects of gas work, from investigating and repairing leaks to Landlord Gas Safety Checks and replacing central heating systems.
+							</p>
 							<div className="row">
 								<div className="flex-row-around">
 									<img src="/valeImages/logos/Gas_Safe_Register.png" alt="Gas Safe Register" style={{ maxHeight: '140px' }} />
@@ -31,10 +31,12 @@ class GasWorksService extends Component {
 							<strong>
 								<p>Other key Gas Work Services we carry out:</p>
 								<ul>
-									<li>Central heating flush and service</li>
 									<li>Gas leaks</li>
 									<li>Landlord annual gas certificate</li>
 									<li>Boiler service</li>
+									<li>Design installation of new central heating system</li>
+									<li>Replacement of radiators and valves</li>
+									<li>Central heating flush and service</li>
 									<li>Gas hob repair/replacement</li>
 								</ul>
 							</strong>

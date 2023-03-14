@@ -38,7 +38,7 @@ class FeaturesV1 extends Component {
 							</div>
 							<div className="ltn__feature-info">
 								<h3><a href="/services/plumbing">Plumbing</a></h3>
-								<p>Leaks, fittings, clearing blockages, burst pipework, plumbing valves, shower booster pumps, cylinders and immersion.</p>
+								<p>Leaks, fittings, burst pipework, plumbing valves, shower booster pumps, cylinders and immersion.</p>
 								<a href="/services/plumbing"><a className="ltn__service-btn">Plumbing&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
@@ -65,7 +65,7 @@ class FeaturesV1 extends Component {
 							</div>
 							<div className="ltn__feature-info">
 								<h3><a href="/services/kitchen-and-bathroom-fitting">Kitchen & Bathroom Fitting</a></h3>
-								<p>Tiling: ceramic, porcelain, and natural stone. Flooring, decorating, carpentry, structural, studwork and plastering.</p>
+								<p>From meeting to discuss design specifications, to full removal and refitting.</p>
 								<a href="/services/kitchen-and-bathroom-fitting"><a className="ltn__service-btn">Kitchen & Bathroom Fitting	&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
@@ -78,7 +78,7 @@ class FeaturesV1 extends Component {
 							</div>
 							<div className="ltn__feature-info">
 								<h3><a href="/services/redecoration-and-handyman">Redecoration & Handyman</a></h3>
-								<p>Door and window handles, stairs and banisters, guttering and fascia's, shelving and brackets, clearance.</p>
+								<p>Working on a wide variety of surfaces, full plastering/restoration/finishing works if required.</p>
 								<a href="/services/redecoration-and-handyman"><a className="ltn__service-btn">Redecoration & Handyman&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
@@ -91,7 +91,7 @@ class FeaturesV1 extends Component {
 							</div>
 							<div className="ltn__feature-info">
 								<h3><a href="/services/general-building-and-exterior-works">General Building & Exterior Works</a></h3>
-								<p>Exterior block and slab paving, sheds, fencing, artificial turf, brickwork and repainting, garden clearance.</p>
+								<p>Tiling, wood/laminate/vinyl flooring, structural/studwork. Exterior block and slab paving, garden works.</p>
 								<a href="/services/general-building-and-exterior-works"><a className="ltn__service-btn">General Building & Exterior Works&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>

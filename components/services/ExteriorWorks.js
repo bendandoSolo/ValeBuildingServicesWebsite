@@ -11,7 +11,7 @@ const ExteriorWorksService = () => {
 							<img src="/valeImages/services/Building_Exterior.jpg" alt="Building Exterior" />
 						</div>
 						<div className='pb-4'>
-							<p> <span className="ltn__first-letter">E</span>xterior Works describes any works carried out to the external environment of a building. These can be works to functional or aesthetic features.</p>
+							<p> <span className="ltn__first-letter">F</span>rom converting a disused space into a home office, knocking through the kitchen wall to make an open plan space or replacing that perished garden shed, we can assist with a wide range of general and exterior works.</p>
 						</div>
 						{/* <div className="row">
 							<div className="col-lg-6">
@@ -22,13 +22,22 @@ const ExteriorWorksService = () => {
 					</div>
 				</div> */}
 						<strong>
-							<p className='pt-3'>Exterior Works Services we commonly offer include:</p>
+							<p className='pt-3'>General building works we offer include:</p>
 							<ul>
-								<li>Exterior block and slab paving removal, replacement and installation</li>
+								<li>Tiling: ceramic, porcelain, and natural stone.</li>
+								<li>Flooring: laminate, engineered and solid wood flooring, vinyl/lino replacement/installation</li>
+								<li>Carpentry: repair/replacement/maintenance</li>
+								<li>Structural, studwork & plastering</li>
+							</ul>
+						</strong>
+						<strong>
+							<p className='pt-3'>Exterior works we offer include:</p>
+							<ul>
+								<li>Exterior block and slab paving</li>
 								<li>Shed installation/replacement/repairs </li>
-								<li>Fencing replacement/repair</li>
+								<li>Fencing & post replacement/repair </li>
 								<li>Artificial turf</li>
-								<li>Brickworks and repointing</li>
+								<li>Brickwork and re-pointing </li>
 								<li>Garden clearance</li>
 							</ul>
 						</strong>

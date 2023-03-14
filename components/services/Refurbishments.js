@@ -11,10 +11,9 @@ class RefurbishmentService extends Component {
 							<div className="ltn__blog-img">
 								<img src="/valeImages/services/Kitchen_Refurbishment.jpg" alt="Kitchen Refurbishment" />
 							</div>
-							<p> <span className="ltn__first-letter">W</span>e cover all aspects of full house or flat refurbishments from start to finish.
-								We create a complete design and build package for you, from the initial design and planning stage, including a wide range of top manufacturers products that we can recommend based on our extensive experience in the industry over the last 30+ years.
+							<p> 
+								<span className="ltn__first-letter">W</span>e cover all aspects of full house or flat refurbishments from start to finish. From the initial design to handing over the keys to a move ready property; we offer services ranging from liaising with architects/planning/building control to trade discounts on a wide range of top manufacturers, that we can recommend/source based on our extensive experience in the industry over the last 30+ years.
 							</p>
-
 							<div className="row">
 								<div className="col-lg-6">
 									<img src="/valeImages/services/Refurbished_Living_Room.jpg" alt="Refurbished Living Room" />
@@ -24,11 +23,13 @@ class RefurbishmentService extends Component {
 									<img src="/valeImages/services/Kitchen_Refurbishment_2.jpg" alt="Kitchen Refurbishment" />
 								</div>
 							</div>
-							<p>After designing a package for you we perform the gutting, structural, stud work and plastering.</p>
-							<p>We do perform all gas, plumbing and electrical works.</p>
-							<p>We install and replace bathrooms, kitchens and utility areas.</p>
+							<p>After designing a package for you we perform the initial gutting, structural, stud work and plastering.</p>
+							<p>We carry out all gas, plumbing and electrical works (with all associated certificates & registrations).</p>
+							<p>We install new kitchens, bathrooms and boiler/central heating systems.</p>
 							<p>We cover all aspects of redecorating and flooring.</p>
-							<p>We take extra care to ensure the final fittings such as door handles and lights are carefully installed.</p>
+							<p>We take extra care to ensure that the final fittings and fixtures such as door handles and lights are professionally installed.</p>
+							<p>Other more bespoke services such as solar panels, EV charging points, Wi-Fi enabled security systems can also be incorporated into the service. </p>
+							<p>Book <b>now</b> for a free quote.</p>
 						</div>
 					</div>
 					<div className="col-lg-4">

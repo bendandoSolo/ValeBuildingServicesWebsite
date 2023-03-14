@@ -12,8 +12,7 @@ class GeneralBuildingService extends Component {
 								<img src="/valeImages/homeCarousel/refurbishment.jpg" alt="Refurbishment" />
 							</div>
 							<div className='row'>
-								<p> <span className="ltn__first-letter">G</span>eneral Building Works are hard to define.
-									They are the building works that are not covered by the other services we offer. And that covers a lot of other Building Services!
+								<p> <span className="ltn__first-letter">W</span>hether you have a specific style in mind, or want to discuss the most suitable design & material choices for your project, we can assist with access to trade discounts from a wide range of quality, well known brands/suppliers.
 								</p>
 							</div>
 							<div className="row">
@@ -26,15 +25,18 @@ class GeneralBuildingService extends Component {
 								</div>
 							</div>
 							<strong>
-								<p className='pt-3'>General Building Work Services we offer include:</p>
+								<p className='pt-3'>Kitchen and Bathroom Fitting Services we offer include:</p>
 								<ul>
-									<li>Tiling: ceramic, porcelain, and natural stone</li>
-									<li>Flooring: laminate, engineered and solid wood flooring, vinyl/lino replacement/installation</li>
-									<li>Decorating: from a single wall to a full property/block </li>
-									<li>Carpentry: repair/replacement/maintenance</li>
-									<li>Structural, stud work & plastering</li>
+									<li>Removal and disposal of existing kitchen/bathrooms</li>
+									<li>Fully certified gas/electrical works</li>
+									<li>Any sub-wall/structural construction</li>
+									<li>Full refitting of new, fully fitted kitchens with a wide range of worktop choices from laminate & wood block, through to quartz and stone</li>
+									<li>Full refitting of bathrooms, with a wide range of showers, baths, enclosures available</li>
+									<li>Full plumbing for accompanying white goods, pumps and heating</li>
+									<li>Finishing flooring/tiling & redecoration</li>
 								</ul>
 							</strong>
+							<p>Book <b>now</b> for a free quote.</p>
 						</div>
 					</div>
 					<div className="col-lg-4">

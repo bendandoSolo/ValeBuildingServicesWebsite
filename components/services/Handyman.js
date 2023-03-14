@@ -11,10 +11,9 @@ class HandyManService extends Component {
 							<div className="ltn__blog-img">
 								<img src="/valeImages/services/Kitchen_Refurbishment.jpg" alt="Kitchen Refurbishment" />
 							</div>
-							<p> <span className="ltn__first-letter">E</span>very handyman we supply is a professionally trained & experienced tradesman. We come to your home fully equipped and aims to finish each task as quickly and efficiently as possible.
-								In the case that the work required does not require a team, that can usually be completed in a single visit, we recommend sending a single tradesman, as the most economical option. We are happy to provide a free quote for any work you require.
+							<p> <span className="ltn__first-letter">P</span>roviding a clean and efficient service, whether it’s redecorating your whole property, a ceiling that’s been damaged following a leak or a refresh of a rental property in-between tenancies, we can assist in delivering the professional finish required.
 							</p>
-
+							<p>Working with a range of surfaces such as: plaster, wood and masonry and with a variety of treatments/finishes, we can assist in restoring and redecorating your property.</p>
 							<div className="row">
 								<div className="col-lg-6">
 									<img src="/valeImages/services/Refurbished_Living_Room.jpg" alt="Refurbished Living Room" />
@@ -25,13 +24,15 @@ class HandyManService extends Component {
 								</div>
 							</div>
 							<strong>
-								<p>The following Handyman services we commonly supply include:</p>
+								<p>We also offer a range of common handyman services:</p>
 								<ul>
-									<li>Leak investigation/repair</li>
-									<li>Fittings repair/replacement – taps, showers, bath/enclosures/trays, basins, toilets etc</li>
-									<li>Clearing blockages</li>
-									<li>Burst pipework</li>
-									<li>Plumbing valves/stopcock installation and replacement</li>
+									<li>Door and window handle/ironmongery replacement</li>
+									<li>Made to measure blinds and curtains/poles</li>
+									<li>Fitting shelves</li>
+									<li>Gutter clearance</li>
+									<li>Power washing </li>
+									<li>General fixings</li>
+									<li>Site clearance</li>
 								</ul>
 							</strong>
 						</div>
