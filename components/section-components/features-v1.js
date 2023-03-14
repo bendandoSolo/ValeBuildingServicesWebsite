@@ -50,9 +50,9 @@ class FeaturesV1 extends Component {
 								{/* <img src="/assets/img/icons/icon-img/23.png" alt="#" /> */}
 							</div>
 							<div className="ltn__feature-info">
-								<h3><a href="/services/gas-works">Gas Works</a></h3>
+								<h3><a href="/services/gas-and-boiler-works">Gas & Boilers Works</a></h3>
 								<p>Boiler and central heating; repair/replacement, flush & service. Gas leaks. Landlord annual gas certificate, gas hobs.</p>
-								<a href="/services/gas-works"><a className="ltn__service-btn">Gas Works&nbsp;<i className="flaticon-right-arrow" /></a></a>
+								<a href="/services/gas-and-boiler-works"><a className="ltn__service-btn">Gas & Boilers Works&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
 					</div>
@@ -64,9 +64,9 @@ class FeaturesV1 extends Component {
 								{/* <img src="/assets/img/icons/icon-img/21.png" alt="#" /> */}
 							</div>
 							<div className="ltn__feature-info">
-								<h3><a href="/services/general-building">General Building</a></h3>
+								<h3><a href="/services/kitchen-and-bathroom-fitting">Kitchen & Bathroom Fitting</a></h3>
 								<p>Tiling: ceramic, porcelain, and natural stone. Flooring, decorating, carpentry, structural, studwork and plastering.</p>
-								<a href="/services/general-building"><a className="ltn__service-btn">General&nbsp;Building&nbsp;<i className="flaticon-right-arrow" /></a></a>
+								<a href="/services/kitchen-and-bathroom-fitting"><a className="ltn__service-btn">Kitchen & Bathroom Fitting	&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
 					</div>
@@ -77,9 +77,9 @@ class FeaturesV1 extends Component {
 								{/* </img src="/assets/img/icons/icon-img/21.png" alt="#" /> */}
 							</div>
 							<div className="ltn__feature-info">
-								<h3><a href="/services/handyman">Handyman</a></h3>
+								<h3><a href="/services/redecoration-and-handyman">Redecoration & Handyman</a></h3>
 								<p>Door and window handles, stairs and banisters, guttering and fascia's, shelving and brackets, clearance.</p>
-								<a href="/services/handyman"><a className="ltn__service-btn">Handyman&nbsp;<i className="flaticon-right-arrow" /></a></a>
+								<a href="/services/redecoration-and-handyman"><a className="ltn__service-btn">Redecoration & Handyman&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
 					</div>
@@ -90,9 +90,9 @@ class FeaturesV1 extends Component {
 								{/* <img src="/assets/img/icons/icon-img/21.png" alt="#" /> */}
 							</div>
 							<div className="ltn__feature-info">
-								<h3><a href="/services/exterior-works">Exterior Works</a></h3>
+								<h3><a href="/services/general-building-and-exterior-works">General Building & Exterior Works</a></h3>
 								<p>Exterior block and slab paving, sheds, fencing, artificial turf, brickwork and repainting, garden clearance.</p>
-								<a href="/services/exterior-works"><a className="ltn__service-btn">Exterior Works&nbsp;<i className="flaticon-right-arrow" /></a></a>
+								<a href="/services/general-building-and-exterior-works"><a className="ltn__service-btn">General Building & Exterior Works&nbsp;<i className="flaticon-right-arrow" /></a></a>
 							</div>
 						</div>
 					</div>

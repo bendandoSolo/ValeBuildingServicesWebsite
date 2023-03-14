@@ -5,7 +5,7 @@ import GasWorksService from '../../components/services/GasWorks';
 const Refurbishments = () => {
 	return (
 		<>
-			<PageHeader headertitle="Gas Works" subheader="Gas Works" />
+			<PageHeader headertitle="Gas & Boilers Works" subheader="Gas & Boilers Works" />
 			<GasWorksService />
 		</>
 	);

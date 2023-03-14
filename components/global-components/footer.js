@@ -95,10 +95,10 @@ class Footer_v1 extends Component {
 										<ul>
 											<li><Link href="/services/refurbishments">Refurbishments</Link></li>
 											<li><Link href="/services/plumbing">Plumbing</Link></li>
-											<li><Link href="/services/gas-works">Gas Works</Link></li>
-											<li><Link href="/services/general-building">General Building</Link></li>
-											<li><Link href="/services/handyman">Handyman</Link></li>
-											<li><Link href="/services/exterior-works">Exterior Works</Link></li>
+											<li><Link href="/services/gas-and-boiler-works">Gas & Boilers Works</Link></li>
+											<li><Link href="/services/kitchen-and-bathroom-fitting">Kitchen & Bathroom Fitting</Link></li>
+											<li><Link href="/services/redecoration-and-handyman">Redecoration & Handyman</Link></li>
+											<li><Link href="/services/general-building-and-exterior-works">General Building & Exterior Works</Link></li>
 										</ul>
 									</div>
 								</div>
@@ -106,7 +106,7 @@ class Footer_v1 extends Component {
 						</div>
 					</div>
 					<div>
-						<p className='text-center bendando-link ' style={{ margin: '16px 0 0 0', padding: 0 }}><a href="https://bendando.com/" target="_blank">Website by Bendando</a></p>
+						<p className='text-center bendando-link' style={{ margin: '16px 0 0 0', padding: 0 }}><a href="https://bendando.com/" target="_blank">Website by Bendando</a></p>
 					</div>
 				</div>
 

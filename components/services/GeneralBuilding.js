@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
+import ServicesSideMenu from '../widgets/ServicesSideMenu';
 
 class GeneralBuildingService extends Component {
 	render() {
@@ -40,28 +40,19 @@ class GeneralBuildingService extends Component {
 					<div className="col-lg-4">
 						<aside className="sidebar-area ltn__right-sidebar">
 							{/* Menu Widget */}
-							<div className="widget-2 ltn__menu-widget ltn__menu-widget-2 text-uppercase">
-								<ul className="go-top">
-									<li ><a href="/services/refurbishments">Refurbishments<span><i className="fas fa-arrow-right" /></span></a></li>
-									<li><a href="/services/plumbing">Plumbing<span><i className="fas fa-arrow-right" /></span></a></li>
-									<li><a href="/services/gas-works">Gas Works<span><i className="fas fa-arrow-right" /></span></a></li>
-									<li className="active"><a href="/services/general-building">General Building<span><i className="fas fa-arrow-right" /></span></a></li>
-									<li><a href="/services/handyman">Handyman<span><i className="fas fa-arrow-right" /></span></a></li>
-									<li><a href="/services/exterior-works">Exterior Works<span><i className="fas fa-arrow-right" /></span></a></li>
-								</ul>
-							</div>
+							<ServicesSideMenu />
 							{/* Newsletter Widget */}
 							{/* <div className="widget ltn__search-widget ltn__newsletter-widget">                            
-						<h6 className="ltn__widget-sub-title">// subscribe</h6>
-						<h4 className="ltn__widget-title">Get Newsletter</h4>
-						<form action="#">
-							<input type="text" name="search" placeholder="Search" />
-							<button type="submit"><i className="fas fa-search" /></button>
-						</form>
-						<div className="ltn__newsletter-bg-icon">
-							<i className="fas fa-envelope-open-text" />
-						</div>
-						</div> */}
+								<h6 className="ltn__widget-sub-title">// subscribe</h6>
+								<h4 className="ltn__widget-title">Get Newsletter</h4>
+								<form action="#">
+									<input type="text" name="search" placeholder="Search" />
+									<button type="submit"><i className="fas fa-search" /></button>
+								</form>
+								<div className="ltn__newsletter-bg-icon">
+									<i className="fas fa-envelope-open-text" />
+								</div>
+								</div> */}
 							{/* Banner Widget */}
 							<div className="widget ltn__banner-widget go-top">
 								<img src="/valeImages/services/Room_And_Stairs_Refurbishment.jpg" alt="Room And Stairs Refurbishment" />

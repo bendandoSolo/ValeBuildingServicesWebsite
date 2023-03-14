@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ServicesSideMenu from '../widgets/ServicesSideMenu';
 
 const ExteriorWorksService = () => {
 	return (<div className="ltn__page-details-area ltn__service-details-area mb-105">
@@ -36,16 +37,7 @@ const ExteriorWorksService = () => {
 				<div className="col-lg-4">
 					<aside className="sidebar-area ltn__right-sidebar">
 						{/* Menu Widget */}
-						<div className="widget-2 ltn__menu-widget ltn__menu-widget-2 text-uppercase">
-							<ul className="go-top">
-								<li ><a href="/services/refurbishments">Refurbishments<span><i className="fas fa-arrow-right" /></span></a></li>
-								<li><a href="/services/plumbing">Plumbing<span><i className="fas fa-arrow-right" /></span></a></li>
-								<li><a href="/services/gas-works">Gas Works<span><i className="fas fa-arrow-right" /></span></a></li>
-								<li><a href="/services/general-building">General Building<span><i className="fas fa-arrow-right" /></span></a></li>
-								<li><a href="/services/handyman">Handyman<span><i className="fas fa-arrow-right" /></span></a></li>
-								<li className="active"><a href="/services/exterior-works">Exterior Works<span><i className="fas fa-arrow-right" /></span></a></li>
-							</ul>
-						</div>
+						<ServicesSideMenu />
 						{/* Newsletter Widget */}
 						{/* <div className="widget ltn__search-widget ltn__newsletter-widget">
 					<h6 className="ltn__widget-sub-title">// subscribe</h6>

@@ -80,10 +80,10 @@ class NavbarV2 extends Component {
 														<ul>
 															<li><a href="/services/refurbishments">Refurbishments</a></li>
 															<li><a href="/services/plumbing">Plumbing</a></li>
-															<li><a href="/services/gas-works">Gas Works</a></li>
-															<li><a href="/services/general-building">General Building</a></li>
-															<li><a href="/services/handyman">Handyman</a></li>
-															<li><a href="/services/exterior-works">Exterior Works</a></li>
+															<li><a href="/services/gas-and-boiler-works">Gas & Boilers Works</a></li>
+															<li><a href="/services/kitchen-and-bathroom-fitting">Kitchen & Bathroom Fitting</a></li>
+															<li><a href="/services/redecoration-and-handyman">Redecoration & Handyman</a></li>
+															<li><a href="/services/general-building-and-exterior-works">General Building & Exterior Works</a></li>
 															{/* <li><a href="/service">Services</a></li>
 															<li><a href="/service-details">Service Details</a></li>
 															<li><a href="/portfolio">Portfolio</a></li>
@@ -140,10 +140,10 @@ class NavbarV2 extends Component {
 									<ul className="sub-menu">
 										<li><a href="/services/refurbishments">Refurbishments</a></li>
 										<li><a href="/services/plumbing">Plumbing</a></li>
-										<li><a href="/services/gas-works">Gas Works</a></li>
-										<li><a href="/services/general-building">General Building</a></li>
-										<li><a href="/services/handyman">Handyman</a></li>
-										<li><a href="/services/exterior-works">Exterior Works</a></li>
+										<li><a href="/services/gas-and-boiler-works">Gas & Boilers Works</a></li>
+										<li><a href="/services/kitchen-and-bathroom-fitting">Kitchen & Bathroom Fitting</a></li>
+										<li><a href="/services/redecoration-and-handyman">Redecoration & Handyman</a></li>
+										<li><a href="/services/general-building-and-exterior-works">General Building & Exterior Works</a></li>
 									</ul>
 								</li>
 								{/* <li><a href="/shop">Shop</a>

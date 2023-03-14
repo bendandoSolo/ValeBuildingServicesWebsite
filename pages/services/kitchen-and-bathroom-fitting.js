@@ -7,7 +7,7 @@ import GeneralBuildingService from '../../components/services/GeneralBuilding';
 const GeneralBuilding = () => {
 	return (
 		<>
-			<PageHeader headertitle="General Building" subheader="General Building" />
+			<PageHeader headertitle="Kitchen & Bathroom Fitting" subheader="Kitchen & Bathroom Fitting" />
 			<GeneralBuildingService />
 		</>
 	);

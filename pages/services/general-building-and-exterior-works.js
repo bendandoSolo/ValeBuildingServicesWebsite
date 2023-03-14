@@ -7,7 +7,7 @@ import ExteriorWorksService from '../../components/services/ExteriorWorks';
 const ExteriorWorks = () => {
 	return (
 		<>
-			<PageHeader headertitle="Exterior Works" subheader="Exterior Works" />
+			<PageHeader headertitle="General Building & Exterior Works" subheader="General Building & Exterior Works" />
 			<ExteriorWorksService />
 		</>
 	);
