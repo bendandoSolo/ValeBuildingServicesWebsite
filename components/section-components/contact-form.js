@@ -1,76 +1,104 @@
-import React, { Component } from 'react';
-class ContactForm extends Component {
+import React, { useState, useRef } from 'react';
+import { useForm } from "react-hook-form";
 
-	componentDidMount() {
 
-		const $ = window.$;
 
-		// Get the form.
-		var form = $('#contact-form');
+const ContactForm = () => {
 
-		// Get the messages div.
-		var formMessages = $('.form-messege');
+  const { register, formState: { errors }, handleSubmit } = useForm();
+  const [data, setData] = useState("");  //for testing purposes only
+  
+  const feedbackDiv = useRef();
+  const feedbackText = useRef();
+  const responseDiv = useRef()
+  const responseText = useRef(); 
 
-		// Set up an event listener for the contact form.
-		$(form).submit(function (e) {
-			// Stop the browser from submitting the form.
-			e.preventDefault();
+  const onSubmit = (data, e) => 
+ {
+	e.preventDefault();
+	setData(JSON.stringify(data));
+	//alert(JSON.stringify(data));
+	sendingAnimation();
+ } 
+ 
+  //fade in and out doesn't work
+  function sendingAnimation() {
+	feedbackDiv.current.classList.add("pop-down");
+	feedbackText.current.classList.add("fade-in");
+	setTimeout(function () {
+		feedbackDiv.current.classList.remove("pop-down");
+		feedbackText.current.classList.add("fade-out");
+		feedbackDiv.current.classList.add("pop-up");
+	}, 1500);
+	setTimeout(function () {
+		feedbackDiv.current.classList.remove("pop-up");
+		feedbackText.current.classList.remove("fade-out", "fade-in");
+	}, 2500);
+  }
 
-			// Serialize the form data.
-			var formData = $(form).serialize();
+  function responseSuccess() {
+	setTimeout(function () {
+		//const contactFormBtn = document.getElementById("contact-form-btn");
+		const response = document.getElementById("response");
+		let responseText = document.getElementById("response-text");
+		response.classList.add("pop-down", "bg-success");
+		responseText.classList.add("fade-in");
+		responseText.innerHTML = `Message Sent Successfully <i class="fas fa-check ms-2"></i>`;
+		//contactFormBtn.classList.remove("disable-click");
+	}, 2500);
+}
 
-			// Submit the form using AJAX.
-			$.ajax({
-				type: 'POST',
-				url: $(form).attr('action'),
-				data: formData
-			})
-				.done(function (response) {
-					// Make sure that the formMessages div has the 'success' class.
-					$(formMessages).removeClass('error');
-					$(formMessages).addClass('success');
+function responseError() {
+	setTimeout(function () {
+		//const contactFormBtn = document.getElementById("contact-form-btn");
+		const response = document.getElementById("response");
+		let responseText = document.getElementById("response-text");
+		response.classList.add("pop-down", "bg-danger");
+		responseText.classList.add("fade-in");
+		responseText.innerHTML = `Error - Please Try Again <i class="fas fa-undo ms-2"></i>`;
+		//contactFormBtn.classList.remove("disable-click");
+	}, 2500);
+}
 
-					// Set the message text.
-					$(formMessages).text(response);
+const test = () => {
+	sendingAnimation();
+	responseError();
+}
 
-					// Clear the form.
-					$('#contact-form input,#contact-form textarea').val('');
-				})
-				.fail(function (data) {
-					// Make sure that the formMessages div has the 'error' class.
-					$(formMessages).removeClass('success');
-					$(formMessages).addClass('error');
 
-					// Set the message text.
-					if (data.responseText !== '') {
-						$(formMessages).text(data.responseText);
-					} else {
-						$(formMessages).text('Oops! An error occured and your message could not be sent.');
-					}
-				});
-		});
-	}
 
-	render() {
-
-		let publicUrl = process.env.PUBLIC_URL + '/'
-
+		//let publicUrl = process.env.PUBLIC_URL + '/'
 		return <div className="ltn__contact-message-area mb-120 mb--100">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-12">
 						<div className="ltn__form-box contact-form-box box-shadow white-bg">
+							<h2>ToDO</h2>
+							<ul>
+								<li>Animated Responses</li>
+								<li>Send the data to the server, and email myself</li>
+								<li>Display the response</li>
+							</ul>
 							<h4 className="title-2">Get In Touch</h4>
-							<form id="contact-form" action={publicUrl + "mail.php"} method="post">
+							{/* <form id="contact-form" onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}> */}
+							<form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
 								<div className="row">
 									<div className="col-md-6">
 										<div className="input-item input-item-name ltn__custom-icon">
-											<input type="text" name="name" placeholder="Enter your name" />
+											<input type="text" name="name" placeholder="Enter your name" className='mt-3 mb-0'
+											{...register("name", { required: true })}
+											aria-invalid={errors.name ? "true" : "false"} 
+											/>
+											{errors.name?.type === 'required' && <p role="alert" className="danger mt-0 mb-0">* Name is required</p>}
 										</div>
 									</div>
 									<div className="col-md-6">
 										<div className="input-item input-item-email ltn__custom-icon">
-											<input type="email" name="email" placeholder="Enter email address" />
+											<input type="email" name="email" placeholder="Enter email address" className='mt-3 mb-0'
+											{...register("email", { required: true })}
+											aria-invalid={errors.email ? "true" : "false"}
+											/>
+											{errors.name?.type === 'required' && <p role="alert" className="danger mt-0 mb-0">* Email is required</p>}
 										</div>
 									</div>
 									{/* <div className="col-md-6">
@@ -88,25 +116,39 @@ class ContactForm extends Component {
 									</div> */}
 									<div className="col-md-6">
 										<div className="input-item input-item-phone ltn__custom-icon">
-											<input type="text" name="phone" placeholder="Enter phone number" />
+											<input type="text" name="phone" placeholder="Enter phone number" className='mt-3 mb-0'
+											 {...register("number")}/>
 										</div>
 									</div>
 								</div>
-								<div className="input-item input-item-textarea ltn__custom-icon">
-									<textarea name="message" placeholder="Enter message" defaultValue={""} />
+								<div className="input-item input-item-textarea ltn__custom-icon ">
+									<textarea name="message" placeholder="Enter message" defaultValue={""} className='mt-3 mb-0'
+									{...register("message", { required: true })}
+									aria-invalid={errors.email ? "true" : "false"}
+									/>
+									{errors.message?.type === 'required' && <p role="alert" className="danger mt-0 mb-3">* Message is required</p>}
 								</div>
 								{/* <p><label className="input-info-save mb-0"><input type="checkbox" name="agree" /> Save my name, email, and website in this browser for the next time I comment.</label></p> */}
+								
+								<div id="feedback" ref={feedbackDiv}>
+									<p id="feedback-text" className='feedback-text' ref={feedbackText}  >Sending...</p>
+								</div>
+								<div id="response">
+									<p id="response-text" style={{ color: '#ffffff' }}></p>
+								</div>
 								<div className="btn-wrapper mt-0">
 									<button className="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Send Message</button>
 								</div>
-								<p className="form-messege mb-0 mt-20" />
+								<p className="form-message mb-0 mt-20" />
+								<button onClick={test}>Test</button>
+								<p>{data}</p>
 							</form>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	}
+	//}
 }
 
 export default ContactForm

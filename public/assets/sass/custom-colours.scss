@@ -1,0 +1,20 @@
+$success-color: #389e0d;
+$danger-color: #FF5A3C;
+//$action-color:#608BD8;
+
+.success{
+	color: $success-color !important;
+ }
+
+.bg-success{
+    background-color: $success-color !important;
+}
+
+
+.danger{
+	color: $danger-color !important;
+ }
+
+ .bg-danger{
+    background-color: $danger-color !important;
+}
