@@ -157,8 +157,8 @@ const sendEmail = async (formValues) => {
 								<div id="feedback" ref={feedbackDiv}>
 									<p id="feedback-text" className='feedback-text' ref={feedbackText}  >Sending...</p>
 								</div>
-								<div id="response">
-									<p id="response-text" style={{ color: '#ffffff' }}></p>
+								<div id="response" ref={responseDiv}>
+									<p id="response-text" style={{ color: '#ffffff' }} ref={responseText}></p>
 								</div>
 								<div className="btn-wrapper mt-0" ref={submitBtn}>
 									<button className="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Send Message</button>

@@ -41,6 +41,7 @@ class Footer_v1 extends Component {
 										</div>
 									</div>
 									<p>Professional and efficient property maintenance and refurbishment at affordable prices.</p>
+									<p>Vale Building Limited (trading as Vale Building Services)<br/>Registered in England and Wales No. 11027613<br/>VAT Number: 28989223</p>
 									<div className="footer-address">
 										<ul>
 											<li>
@@ -61,6 +62,14 @@ class Footer_v1 extends Component {
 											</li>
 											<li>
 												<div className="footer-address-icon">
+													<i className="icon-call" />
+												</div>
+												<div className="footer-address-info">
+													<p><a href="tel:07786400595">07786400595</a></p>
+												</div>
+											</li>
+											<li>
+												<div className="footer-address-icon">
 													<i className="icon-mail" />
 												</div>
 												<div className="footer-address-info">
@@ -75,7 +84,7 @@ class Footer_v1 extends Component {
 								</div>
 							</div>
 							<div className="col-xl-4 col-md-4 col-sm-6 col-12">
-								<div className="footer-widget footer-menu-widget clearfix">
+								<div className="footer-widget footer-menu-widget clearfix pt-80" >
 									<h4 className="footer-title">Company</h4>
 									<div className="footer-menu go-top">
 										<ul>
@@ -89,7 +98,7 @@ class Footer_v1 extends Component {
 								</div>
 							</div>
 							<div className="col-xl-4 col-md-4 col-sm-6 col-12">
-								<div className="footer-widget footer-menu-widget clearfix">
+								<div className="footer-widget footer-menu-widget clearfix pt-80" >
 									<h4 className="footer-title">Services</h4>
 									<div className="footer-menu go-top">
 										<ul>

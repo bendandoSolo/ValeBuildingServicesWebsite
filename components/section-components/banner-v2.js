@@ -18,9 +18,9 @@ const BannerV2 = () => {
 									<div className="slide-item-info">
 										<div className="slide-item-info-inner ltn__slide-animation">
 											<h6 className="slide-sub-title white-color--- animated"><span><i className="fas fa-home" /></span> Vale Building Services</h6>
-											<h1 className="slide-title animated ">Property Maintenance <br /><span>&&nbsp;Refurbishment</span></h1>
+											<h1 className="slide-title animated ">Property Maintenance <br /><span>&&nbsp;Refurbishment</span> for over 30 years</h1>
 											<div className="slide-brief animated">
-												<p>Based in Kingston; Covering London, Surrey and the surrounding areas.</p>
+												<p>Based in Kingston Upon Thames; covering London, Surrey and the surrounding areas.</p>
 											</div>
 											<div className="btn-wrapper animated">
 												<Link href="#services"><a className="theme-btn-1 btn btn-effect-1">OUR SERVICES</a></Link>

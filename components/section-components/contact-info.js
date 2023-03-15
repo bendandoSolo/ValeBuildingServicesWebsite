@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 class ContactInfo extends Component {
 	render() {
@@ -19,7 +20,8 @@ class ContactInfo extends Component {
 								<img src="assets/img/icons/11-blue.png" alt="Phone Icon" />
 							</div>
 							<h3>Phone Number</h3>
-							<p><a href="tel:02036673833">02036673833</a><br />&nbsp; </p>
+							<p><a href="tel:02036673833">02036673833</a><br />&nbsp;<a href="tel:07786400595">07786400595</a><br /> </p>
+							
 						</div>
 					</div>
 					{/* <div className="col-lg-4">
