@@ -101,7 +101,7 @@ class NavbarV2 extends Component {
 														<a href="mailto:admin@valeinfo.co.uk"><i className="icon-mail" style={{ position: 'relative', top: '3px' }} /> admin@valeinfo.co.uk</a>
 													</li>
 													<li className="special-link">
-														<a href="tel:02036673833"><i className="icon-call" style={{ position: 'relative', top: '2px' }} /> 02036673833 / 07786400595</a>
+														<a href="tel:02036673833"><i className="icon-call" style={{ position: 'relative', top: '2px' }} /> 02036673833 </a>
 													</li>
 												</ul>
 											</div>
