@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, {  useRef, useState } from 'react';
 import { useForm } from "react-hook-form";
 
 
@@ -12,13 +12,15 @@ const ContactForm = () => {
   const feedbackText = useRef();
   const responseDiv = useRef()
   const responseText = useRef(); 
+  const submitBtn = useRef();
 
   const onSubmit = (data, e) => 
  {
 	e.preventDefault();
+	sendEmail(data);
 	setData(JSON.stringify(data));
 	//alert(JSON.stringify(data));
-	sendingAnimation();
+	//sendingAnimation();
  } 
  
   //fade in and out doesn't work
@@ -38,25 +40,18 @@ const ContactForm = () => {
 
   function responseSuccess() {
 	setTimeout(function () {
-		//const contactFormBtn = document.getElementById("contact-form-btn");
-		const response = document.getElementById("response");
-		let responseText = document.getElementById("response-text");
-		response.classList.add("pop-down", "bg-success");
-		responseText.classList.add("fade-in");
-		responseText.innerHTML = `Message Sent Successfully <i class="fas fa-check ms-2"></i>`;
+		responseDiv.current.classList.add("pop-down", "bg-success");
+		responseText.current.classList.add("fade-in");
+		responseText.current.innerHTML = `Message Sent Successfully <i class="fas fa-check ms-2"></i>`;
 		//contactFormBtn.classList.remove("disable-click");
 	}, 2500);
 }
 
 function responseError() {
 	setTimeout(function () {
-		//const contactFormBtn = document.getElementById("contact-form-btn");
-		const response = document.getElementById("response");
-		let responseText = document.getElementById("response-text");
-		response.classList.add("pop-down", "bg-danger");
-		responseText.classList.add("fade-in");
-		responseText.innerHTML = `Error - Please Try Again <i class="fas fa-undo ms-2"></i>`;
-		//contactFormBtn.classList.remove("disable-click");
+		responseDiv.current.classList.add("pop-down", "bg-danger");
+		responseText.current.classList.add("fade-in");
+		responseText.current.innerHTML = `Error - Please Try Again <i class="fas fa-undo ms-2"></i>`;
 	}, 2500);
 }
 
@@ -65,7 +60,36 @@ const test = () => {
 	responseError();
 }
 
-
+const sendEmail = async (formValues) => {
+	submitBtn.current.classList.add("disable-click");
+	sending();
+	formValues["to"] = "admin@valeinfo.co.uk";
+	formValues["website"] = "www.valebuilding.com";
+	const response = await fetch(
+		'https://csharpsendgridwithresponse.azurewebsites.net/api/SendGridWithResponseCSharp',
+		{
+			method: "POST",
+			contentType: "application/json",
+			body: JSON.stringify(formValues),
+		}
+	);
+	try {
+		let bodyresponse = await response.json();
+		if (
+			response.status === 200 &&
+			bodyresponse.message != null &&
+			bodyresponse.message == "Email Sent"
+		) {
+			responseSuccess();
+			//actions.resetForm();
+		} else {
+			responseError();
+		}
+	} catch (err) {
+		responseError();
+	}
+	submitBtn.remove.classList.add("disable-click");
+};
 
 		//let publicUrl = process.env.PUBLIC_URL + '/'
 		return <div className="ltn__contact-message-area mb-120 mb--100">
@@ -136,7 +160,7 @@ const test = () => {
 								<div id="response">
 									<p id="response-text" style={{ color: '#ffffff' }}></p>
 								</div>
-								<div className="btn-wrapper mt-0">
+								<div className="btn-wrapper mt-0" ref={submitBtn}>
 									<button className="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Send Message</button>
 								</div>
 								<p className="form-message mb-0 mt-20" />
