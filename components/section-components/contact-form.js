@@ -1,4 +1,4 @@
-import React, {  useRef, useState } from 'react';
+import React, {  useRef } from 'react';
 import { useForm } from "react-hook-form";
 
 
@@ -6,7 +6,6 @@ import { useForm } from "react-hook-form";
 const ContactForm = () => {
 
   const { register, formState: { errors }, handleSubmit } = useForm();
-  const [data, setData] = useState("");  //for testing purposes only
   
   const feedbackDiv = useRef();
   const feedbackText = useRef();
@@ -18,9 +17,6 @@ const ContactForm = () => {
  {
 	e.preventDefault();
 	sendEmail(data);
-	setData(JSON.stringify(data));
-	//alert(JSON.stringify(data));
-	//sendingAnimation();
  } 
  
   //fade in and out doesn't work
@@ -43,7 +39,6 @@ const ContactForm = () => {
 		responseDiv.current.classList.add("pop-down", "bg-success");
 		responseText.current.classList.add("fade-in");
 		responseText.current.innerHTML = `Message Sent Successfully <i class="fas fa-check ms-2"></i>`;
-		//contactFormBtn.classList.remove("disable-click");
 	}, 2500);
 }
 
@@ -62,9 +57,9 @@ const test = () => {
 
 const sendEmail = async (formValues) => {
 	submitBtn.current.classList.add("disable-click");
-	sending();
+	sendingAnimation();
 	formValues["to"] = "admin@valeinfo.co.uk";
-	formValues["website"] = "www.valebuilding.com";
+	formValues["website"] = "valeinfo.co.uk";
 	const response = await fetch(
 		'https://csharpsendgridwithresponse.azurewebsites.net/api/SendGridWithResponseCSharp',
 		{
@@ -74,24 +69,22 @@ const sendEmail = async (formValues) => {
 		}
 	);
 	try {
-		let bodyresponse = await response.json();
+		const bodyresponse = await response.json();
 		if (
 			response.status === 200 &&
 			bodyresponse.message != null &&
 			bodyresponse.message == "Email Sent"
 		) {
 			responseSuccess();
-			//actions.resetForm();
 		} else {
 			responseError();
 		}
 	} catch (err) {
 		responseError();
 	}
-	submitBtn.remove.classList.add("disable-click");
+	submitBtn.current.classList.remove("disable-click");
 };
 
-		//let publicUrl = process.env.PUBLIC_URL + '/'
 		return <div className="ltn__contact-message-area mb-120 mb--100">
 			<div className="container">
 				<div className="row">
@@ -104,7 +97,6 @@ const sendEmail = async (formValues) => {
 								<li>Display the response</li>
 							</ul>
 							<h4 className="title-2">Get In Touch</h4>
-							{/* <form id="contact-form" onSubmit={handleSubmit((data) => setData(JSON.stringify(data)))}> */}
 							<form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
 								<div className="row">
 									<div className="col-md-6">
@@ -141,7 +133,7 @@ const sendEmail = async (formValues) => {
 									<div className="col-md-6">
 										<div className="input-item input-item-phone ltn__custom-icon">
 											<input type="text" name="phone" placeholder="Enter phone number" className='mt-3 mb-0'
-											 {...register("number")}/>
+											 {...register("phone")}/>
 										</div>
 									</div>
 								</div>
@@ -163,9 +155,6 @@ const sendEmail = async (formValues) => {
 								<div className="btn-wrapper mt-0" ref={submitBtn}>
 									<button className="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Send Message</button>
 								</div>
-								<p className="form-message mb-0 mt-20" />
-								<button onClick={test}>Test</button>
-								<p>{data}</p>
 							</form>
 						</div>
 					</div>
