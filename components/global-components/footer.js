@@ -41,7 +41,7 @@ class Footer_v1 extends Component {
 										</div>
 									</div>
 									<p>Professional and efficient property maintenance and refurbishment at affordable prices.</p>
-									<p>Vale Building Limited (trading as Vale Building Services)<br/>Registered in England and Wales No. 11027613<br/>VAT Number: 28989223</p>
+									<p>Vale Building Limited (trading as Vale Building Services)<br/>Registered in England and Wales No. 11027613<br/>VAT Number: 289849223</p>
 									<div className="footer-address">
 										<ul>
 											<li>
