@@ -90,12 +90,6 @@ const sendEmail = async (formValues) => {
 				<div className="row">
 					<div className="col-lg-12">
 						<div className="ltn__form-box contact-form-box box-shadow white-bg">
-							<h2>ToDO</h2>
-							<ul>
-								<li>Animated Responses</li>
-								<li>Send the data to the server, and email myself</li>
-								<li>Display the response</li>
-							</ul>
 							<h4 className="title-2">Get In Touch</h4>
 							<form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
 								<div className="row">
